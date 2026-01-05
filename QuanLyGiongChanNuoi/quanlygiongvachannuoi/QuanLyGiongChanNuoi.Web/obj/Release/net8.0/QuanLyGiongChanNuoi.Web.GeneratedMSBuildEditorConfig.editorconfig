@@ -1,0 +1,131 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QuanLyGiongChanNuoi.Web
+build_property.RootNamespace = QuanLyGiongChanNuoi.Web
+build_property.ProjectDir = E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/GiongVatNuoi/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvbmdWYXROdW9pXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/GiongVatNuoi/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvbmdWYXROdW9pXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/GiongVatNuoi/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvbmdWYXROdW9pXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/GiongVatNuoi/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvbmdWYXROdW9pXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/GiongVatNuoi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvbmdWYXROdW9pXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/NguoiDung/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmd1b2lEdW5nXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/NguoiDung/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmd1b2lEdW5nXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/NguoiDung/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmd1b2lEdW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/Nhom/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhvbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/Nhom/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhvbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/Nhom/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhvbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/PhanQuyen/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhblF1eWVuXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/PhanQuyen/PhanQuyenChoNguoiDung.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhblF1eWVuXFBoYW5RdXllbkNob05ndW9pRHVuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/PhanQuyen/PhanQuyenChoNhom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhblF1eWVuXFBoYW5RdXllbkNob05ob20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/PhanQuyen/TraCuuQuyenUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhblF1eWVuXFRyYUN1dVF1eWVuVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/QuanLyQuyen/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5UXV5ZW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/QuanLyQuyen/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5UXV5ZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/QuanLyQuyen/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbkx5UXV5ZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/trananhduc/HOCTAP/Cơ sở ngành/KTPM/KTPM_TAD/QuanLyGiongChanNuoi/quanlygiongvachannuoi/QuanLyGiongChanNuoi.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8yi50jgeqc

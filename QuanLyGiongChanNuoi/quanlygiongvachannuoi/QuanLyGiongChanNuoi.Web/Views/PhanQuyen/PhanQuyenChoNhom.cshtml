@@ -1,0 +1,63 @@
+﻿@model List<QuanLyGiongChanNuoi.Web.Models.PhanQuyenViewModel>
+
+@{
+    ViewData["Title"] = "Phân Quyền Nhóm";
+}
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h4><i class="bi bi-ui-checks"></i> Phân Quyền Cho Nhóm: <b>@ViewData["TenDoituong"]</b></h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="LuuPhanQuyenNhom" method="post">
+                <input type="hidden" name="nhomId" value="@ViewData["IdDoiTuong"]" />
+
+                <div class="table-responsive">
+                    <table class="table table-hover table-bordered">
+                        <thead class="table-light">
+                            <tr>
+                                <th class="text-center" style="width: 50px;">
+                                    <input type="checkbox" id="checkAll" />
+                                </th>
+                                <th>Mã Quyền</th>
+                                <th>Tên Quyền</th>
+                                <th>Mô Tả</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.Count; i++)
+                            {
+                                <tr>
+                                    <td class="text-center">
+                                        <input asp-for="@Model[i].IsSelected" class="form-check-input item-check" style="transform: scale(1.3);" />
+                                        
+                                        <input type="hidden" asp-for="@Model[i].MaQuyen" />
+                                    </td>
+                                    <td><code>@Model[i].MaQuyen</code></td>
+                                    <td class="fw-bold">@Model[i].TenQuyen</td>
+                                    <td>@Model[i].Mota</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="mt-3">
+                    <button type="submit" class="btn btn-success"><i class="bi bi-save"></i> Lưu Thay Đổi</button>
+                    <a asp-controller="Nhom" asp-action="Index" class="btn btn-secondary">Quay lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Script nhỏ để bấm nút chọn tất cả
+    document.getElementById('checkAll').onclick = function() {
+        var checkboxes = document.querySelectorAll('.item-check');
+        for (var checkbox of checkboxes) {
+            checkbox.checked = this.checked;
+        }
+    }
+</script>

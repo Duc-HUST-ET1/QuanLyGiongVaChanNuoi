@@ -1,0 +1,53 @@
+﻿@model List<QuanLyGiongChanNuoi.Web.Models.PhanQuyenViewModel>
+    @{
+    ViewData["Title"] = "Phân Quyền Người Dùng";
+    }
+
+    <div class="container mt-4">
+        <div class="card shadow">
+            <div class="card-header bg-success text-white">
+                <h4><i class="bi bi-person-fill-lock"></i> Phân Quyền Riêng Cho: <b>@ViewBag.TenNguoiDung</b></h4>
+            </div>
+            <div class="card-body">
+
+                <div class="alert alert-warning">
+                    <i class="bi bi-info-circle-fill"></i> <b>Lưu ý:</b> Các quyền được chọn ở đây sẽ được cộng dồn với quyền của Nhóm mà người dùng này đang tham gia.
+                </div>
+
+                <form asp-action="LuuPhanQuyenNguoiDung" method="post">
+                    <input type="hidden" name="nguoiDungId" value="@ViewBag.NguoiDungId" />
+
+                    <table class="table table-hover table-bordered">
+                        <thead class="table-light">
+                            <tr>
+                                <th class="text-center" style="width: 50px;">Chọn</th>
+                                <th>Mã Quyền</th>
+                                <th>Tên Quyền</th>
+                                <th>Mô Tả</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.Count; i++)
+                        {
+                            <tr>
+                                <td class="text-center">
+                                    <input type="checkbox" asp-for="@Model[i].CoQuyen" class="form-check-input" style="transform: scale(1.3);" />
+                                    <input type="hidden" asp-for="@Model[i].MaQuyen" />
+                                    <input type="hidden" asp-for="@Model[i].TenQuyen" />
+                                </td>
+                                <td><code class="text-danger fw-bold">@Model[i].MaQuyen</code></td>
+                                <td class="fw-bold text-success">@Model[i].TenQuyen</td>
+                                <td>@Model[i].Mota</td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+
+                    <div class="mt-3">
+                        <button type="submit" class="btn btn-success"><i class="bi bi-save"></i> Lưu Thay Đổi</button>
+                        <a asp-controller="NguoiDung" asp-action="Index" class="btn btn-secondary">Quay lại</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>

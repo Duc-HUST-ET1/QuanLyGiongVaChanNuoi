@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Xóa Giống Vật Nuôi";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card shadow border-danger">
+                <div class="card-header bg-danger text-white">
+                    <h4 class="mb-0">
+                        <i class="bi bi-exclamation-triangle"></i> Xác Nhận Xóa
+                    </h4>
+                </div>
+                <div class="card-body">
+
+                    @if (ViewBag.ErrorMessage != null)
+                    {
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <i class="bi bi-x-circle-fill"></i> @ViewBag.ErrorMessage
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    }
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <i class="bi bi-x-circle-fill"></i> @TempData["ErrorMessage"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    }
+                    <div class="alert alert-warning">
+                        <i class="bi bi-info-circle"></i>
+                        Bạn có chắc chắn muốn xóa giống vật nuôi này không?
+                    </div>
+
+                    <dl class="row">
+                        <dt class="col-sm-3">Tên Giống:</dt>
+                        <dd class="col-sm-9"><strong>@ViewBag.TenGiong</strong></dd>
+
+                        <dt class="col-sm-3">Loại:</dt>
+                        <dd class="col-sm-9"><span class="badge bg-info">@ViewBag.Loai</span></dd>
+
+                        <dt class="col-sm-3">Mô Tả:</dt>
+                        <dd class="col-sm-9">@(ViewBag.MoTa ?? "Không có mô tả")</dd>
+                    </dl>
+
+                    <form asp-action="Delete" method="post">
+                        <input type="hidden" name="id" value="@ViewBag.Id" />
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="bi bi-arrow-left"></i> Hủy
+                            </a>
+                            <button type="submit" class="btn btn-danger">
+                                <i class="bi bi-trash"></i> Xóa
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

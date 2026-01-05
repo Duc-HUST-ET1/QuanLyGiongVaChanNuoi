@@ -1,0 +1,37 @@
+﻿@model QuanLyGiongChanNuoi.Infrastructure.Models.Nhom
+
+@{ ViewData["Title"] = "Tạo Nhóm Mới"; }
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h4><i class="bi bi-folder-plus"></i> Tạo Nhóm Người Dùng Mới</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Tên Nhóm (*)</label>
+                            <input asp-for="Ten" class="form-control" placeholder="Ví dụ: Nhóm Kỹ Thuật Viên" required />
+                            <span asp-validation-for="Ten" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Mô Tả</label>
+                            <textarea asp-for="Mota" class="form-control" rows="3" placeholder="Mô tả ngắn gọn về chức năng của nhóm này..."></textarea>
+                            <span asp-validation-for="Mota" class="text-danger"></span>
+                        </div>
+
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-success px-4"><i class="bi bi-check-lg"></i> Tạo Mới</button>
+                            <a asp-action="Index" class="btn btn-secondary px-4">Quay Lại</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

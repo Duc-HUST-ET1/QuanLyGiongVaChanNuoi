@@ -1,0 +1,48 @@
+﻿@model List<QuanLyGiongChanNuoi.Web.Models.KetQuaPhanQuyenViewModel>
+
+    @{
+    ViewData["Title"] = "Tra Cứu Quyền Người Dùng";
+    }
+
+    <div class="container mt-4">
+        <div class="alert alert-info">
+            <h5><i class="bi bi-info-circle"></i> Kết quả tra cứu quyền: <b>@ViewData["TenUser"]</b></h5>
+        </div>
+
+        @if (!Model.Any())
+    {
+        <div class="text-center mt-5">User này chưa được cấp quyền nào cả.</div>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Mã Quyền</th>
+                    <th>Tên Hành Động</th>
+                    <th>Nguồn Cấp (Từ đâu?)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td><code>@item.MaQuyen</code></td>
+                    <td>@item.TenQuyen</td>
+                    <td>
+                        @if (item.NguonQuyen.Contains("Nhóm"))
+                            {
+                        <span class="badge bg-primary">@item.NguonQuyen</span>
+                            }
+                            else
+                            {
+                        <span class="badge bg-success">@item.NguonQuyen</span>
+                            }
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    }
+        <a href="javascript:history.back()" class="btn btn-secondary mt-3">Quay lại</a>
+    </div>

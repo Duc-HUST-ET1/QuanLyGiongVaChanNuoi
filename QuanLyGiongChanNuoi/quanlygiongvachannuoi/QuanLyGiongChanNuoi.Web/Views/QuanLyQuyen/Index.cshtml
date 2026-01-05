@@ -1,0 +1,71 @@
+﻿@model IEnumerable<QuanLyGiongChanNuoi.Infrastructure.Models.PhanQuyen>
+
+@{ ViewData["Title"] = "Quản lý Định nghĩa Quyền"; }
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="text-primary fw-bold"><i class="fa-solid fa-shield-halved"></i> Quản lý Định Nghĩa Quyền</h3>
+        <a asp-action="Create" class="btn btn-primary shadow-sm">
+            <i class="fa-solid fa-plus"></i> Thêm Quyền Mới
+        </a>
+    </div>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show shadow-sm" role="alert">
+            <i class="fa-solid fa-triangle-exclamation me-2"></i> @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+    
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show shadow-sm" role="alert">
+            <i class="fa-solid fa-check-circle me-2"></i> @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <div class="card shadow border-0">
+        <div class="card-body p-0">
+            <table class="table table-hover table-striped align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th class="py-3 ps-3">Mã Quyền (Code)</th>
+                        <th class="py-3">Tên Quyền</th>
+                        <th class="py-3">Mô Tả Chi Tiết</th>
+                        <th class="py-3 text-center" style="width: 150px;">Thao Tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="ps-3"><code>@item.MaQuyen</code></td>
+                            <td class="fw-bold text-primary">@item.TenQuyen</td>
+                            <td>@item.Mota</td>
+                            <td class="text-center">
+                                <div class="d-flex justify-content-center gap-2">
+                                    <a asp-action="Edit" asp-route-id="@item.MaQuyen" 
+                                       class="btn btn-warning btn-sm text-white shadow-sm"
+                                       style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;">
+                                        <i class="fa-solid fa-pen-to-square"></i>
+                                    </a>
+                                    
+                                    <form asp-action="Delete" asp-route-id="@item.MaQuyen" method="post" 
+                                          style="margin:0" 
+                                          onsubmit="return confirm('Bạn có chắc muốn xóa quyền [@item.MaQuyen] không?');">
+                                        <button type="submit" class="btn btn-danger btn-sm shadow-sm"
+                                                style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

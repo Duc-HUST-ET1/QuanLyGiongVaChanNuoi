@@ -1,0 +1,42 @@
+﻿@model QuanLyGiongChanNuoi.Infrastructure.Models.PhanQuyen
+@{ ViewData["Title"] = "Sửa Quyền"; }
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-warning text-dark">
+                    <h4><i class="fa-solid fa-pen"></i> Chỉnh Sửa Quyền: <b>@Model.MaQuyen</b></h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit">
+                        <input type="hidden" asp-for="MaQuyen" />
+
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="mb-3">
+                            <label class="form-label text-muted">Mã Quyền (Không thể sửa)</label>
+                            <input value="@Model.MaQuyen" class="form-control bg-light" disabled />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Tên Hiển Thị (*)</label>
+                            <input asp-for="TenQuyen" class="form-control" required />
+                            <span asp-validation-for="TenQuyen" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Mô Tả</label>
+                            <textarea asp-for="Mota" class="form-control" rows="3"></textarea>
+                        </div>
+
+                        <div class="text-center mt-3">
+                            <button type="submit" class="btn btn-warning"><i class="fa-solid fa-save"></i> Cập Nhật</button>
+                            <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

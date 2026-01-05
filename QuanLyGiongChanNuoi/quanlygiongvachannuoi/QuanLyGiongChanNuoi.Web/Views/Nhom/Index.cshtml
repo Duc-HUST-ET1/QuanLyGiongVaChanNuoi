@@ -1,0 +1,87 @@
+﻿@model IEnumerable<QuanLyGiongChanNuoi.Infrastructure.Models.Nhom>
+
+    @{
+    ViewData["Title"] = "Quản lý Nhóm";
+    }
+
+    <div class="container mt-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h3 class="text-primary fw-bold"><i class="bi bi-collection-fill"></i> Quản lý Nhóm Người Dùng</h3>
+            <a asp-action="Create" class="btn btn-primary shadow-sm">
+                <i class="bi bi-plus-lg"></i> Tạo Nhóm Mới
+            </a>
+        </div>
+
+        @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show shadow-sm" role="alert">
+            <i class="bi bi-check-circle-fill me-2"></i> @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+        <div class="card shadow border-0">
+            <div class="card-body p-0">
+                <table class="table table-hover table-striped align-middle mb-0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th class="py-3 ps-3">Tên Nhóm</th>
+                            <th class="py-3">Mô Tả</th>
+                            <th class="py-3">Ngày Tạo</th>
+                            <th class="py-3 text-center" style="width: 200px;">Thao Tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null && Model.Any())
+                    {
+                        @foreach (var item in Model)
+                        {
+                        <tr>
+                            <td class="ps-3 fw-bold text-primary">@item.Ten</td>
+                            <td>@item.Mota</td>
+                            <td>@item.NgayTao?.ToString("dd/MM/yyyy")</td>
+
+                            <td class="text-center">
+                                <div class="d-flex justify-content-center gap-2">
+                                    <a asp-controller="PhanQuyen" asp-action="PhanQuyenChoNhom" asp-route-nhomId="@item.Id"
+                                       class="btn btn-info btn-sm text-white shadow-sm"
+                                       title="Phân quyền cho nhóm này"
+                                       style="width: 35px; height: 35px; display: flex; align-items: center; justify-content: center;">
+                                        <i class="bi bi-shield-lock-fill"></i>
+                                    </a>
+
+                                    <a asp-action="Edit" asp-route-id="@item.Id"
+                                       class="btn btn-warning btn-sm text-white shadow-sm"
+                                       title="Sửa thông tin nhóm"
+                                       style="width: 35px; height: 35px; display: flex; align-items: center; justify-content: center;">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </a>
+
+                                    <form asp-action="Delete" asp-route-id="@item.Id" method="post"
+                                          style="margin: 0;"
+                                          onsubmit="return confirm('CẢNH BÁO: Xóa nhóm này sẽ xóa cả phân quyền của các thành viên trong nhóm!\nBạn có chắc chắn muốn xóa nhóm @item.Ten không?');">
+                                        <button type="submit"
+                                                class="btn btn-danger btn-sm shadow-sm"
+                                                title="Xóa nhóm này"
+                                                style="width: 35px; height: 35px; display: flex; align-items: center; justify-content: center;">
+                                            <i class="bi bi-trash"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4" class="text-center py-4 text-muted">
+                                <i class="bi bi-inbox fs-3 d-block mb-2"></i> Chưa có nhóm nào. Hãy tạo mới!
+                            </td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
