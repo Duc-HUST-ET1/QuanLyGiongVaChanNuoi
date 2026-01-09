@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using QuanLyGiongChanNuoi.Core.Interfaces;
 using QuanLyGiongChanNuoi.Infrastructure.Repositories;
 using QuanLyGiongChanNuoi.Infrastructure;
+using QuanLyGiongChanNuoi.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // Add DbContext
-builder.Services.AddDbContext<QuanLyGiongVaThucAnChanNuoiAContext>(options =>
+builder.Services.AddDbContext<QuanLyGiongVaThucAnChanNuoiContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add Repositories và UnitOfWork
@@ -32,6 +33,8 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LoginPath = "/Account/Login"; // Đường dẫn trang đăng nhập
         options.ExpireTimeSpan = TimeSpan.FromMinutes(60); // Hết hạn sau 60p
     });
+// Thêm dòng này vào trước đoạn app = builder.Build();
+builder.Services.AddHttpContextAccessor();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
