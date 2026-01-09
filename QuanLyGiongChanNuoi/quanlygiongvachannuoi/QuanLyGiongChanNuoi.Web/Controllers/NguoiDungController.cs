@@ -6,6 +6,7 @@ using QuanLyGiongChanNuoi.Infrastructure; // Hoặc .Data tùy namespace của b
 using QuanLyGiongChanNuoi.Infrastructure.Models;
 using System.Security.Cryptography;
 using System.Text;
+using QuanLyGiongChanNuoi.Infrastructure.Data;
 
 namespace QuanLyGiongChanNuoi.Web.Controllers
 {
@@ -13,9 +14,9 @@ namespace QuanLyGiongChanNuoi.Web.Controllers
     public class NguoiDungController : Controller
     {
         // Thay tên Context cho đúng với cái bạn đang dùng (AContext hoặc Context)
-        private readonly QuanLyGiongVaThucAnChanNuoiAContext _context;
+        private readonly QuanLyGiongVaThucAnChanNuoiContext _context;
 
-        public NguoiDungController(QuanLyGiongVaThucAnChanNuoiAContext context)
+        public NguoiDungController(QuanLyGiongVaThucAnChanNuoiContext context)
         {
             _context = context;
         }

@@ -3,15 +3,16 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using QuanLyGiongChanNuoi.Infrastructure;
 using QuanLyGiongChanNuoi.Infrastructure.Models;
+using QuanLyGiongChanNuoi.Infrastructure.Data;
 
 namespace QuanLyGiongChanNuoi.Web.Controllers
 {
     [Authorize(Roles = "Quản trị viên")]
     public class QuanLyQuyenController : Controller
     {
-        private readonly QuanLyGiongVaThucAnChanNuoiAContext _context;
+        private readonly QuanLyGiongVaThucAnChanNuoiContext _context;
 
-        public QuanLyQuyenController(QuanLyGiongVaThucAnChanNuoiAContext context)
+        public QuanLyQuyenController(QuanLyGiongVaThucAnChanNuoiContext context)
         {
             _context = context;
         }

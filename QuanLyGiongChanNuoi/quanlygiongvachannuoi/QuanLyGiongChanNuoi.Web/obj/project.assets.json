@@ -1484,7 +1484,10 @@
         },
         "runtime": {
           "bin/placeholder/QuanLyGiongChanNuoi.Infrastructure.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "QuanLyGiongChanNuoi.Services/1.0.0": {
         "type": "project",

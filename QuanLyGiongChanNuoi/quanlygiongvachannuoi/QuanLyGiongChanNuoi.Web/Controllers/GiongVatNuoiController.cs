@@ -3,6 +3,7 @@ using QuanLyGiongChanNuoi.Core.Interfaces;
 using QuanLyGiongChanNuoi.Infrastructure;
 using Microsoft.AspNetCore.Authorization;
 using QuanLyGiongChanNuoi.Infrastructure.Models;
+using QuanLyGiongChanNuoi.Infrastructure.Data;
 
 namespace QuanLyGiongChanNuoi.Web.Controllers
 {

@@ -32,3 +32,4 @@ E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygio
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Infrastructure\obj\Debug\net8.0\QuanLyGiongChanNuoi.Infrastructure.pdb
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Infrastructure\obj\Debug\net8.0\QuanLyGiongChanNuoi.Infrastructure.genruntimeconfig.cache
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Infrastructure\obj\Debug\net8.0\ref\QuanLyGiongChanNuoi.Infrastructure.dll
+E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Infrastructure\obj\Debug\net8.0\QuanLyGiongChanNuoi.Infrastructure.sourcelink.json

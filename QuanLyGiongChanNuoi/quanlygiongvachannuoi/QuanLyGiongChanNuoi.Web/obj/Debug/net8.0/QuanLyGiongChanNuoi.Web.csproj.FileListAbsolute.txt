@@ -149,3 +149,4 @@ E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygio
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Web\obj\Debug\net8.0\QuanLyGiongChanNuoi.Web.pdb
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Web\obj\Debug\net8.0\QuanLyGiongChanNuoi.Web.genruntimeconfig.cache
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Web\obj\Debug\net8.0\ref\QuanLyGiongChanNuoi.Web.dll
+E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Web\obj\Debug\net8.0\QuanLyGiongChanNuoi.Web.sourcelink.json

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using QuanLyGiongChanNuoi.Infrastructure;
 using QuanLyGiongChanNuoi.Infrastructure.Models;
+using QuanLyGiongChanNuoi.Infrastructure.Data;
 
 namespace QuanLyGiongChanNuoi.Web.Controllers
 {
@@ -10,19 +11,27 @@ namespace QuanLyGiongChanNuoi.Web.Controllers
     public class NhomController : Controller
     {
         // Nhớ thay đúng tên Context bạn đang dùng (QuanLyGiongVaThucAnChanNuoiAContext)
-        private readonly QuanLyGiongVaThucAnChanNuoiAContext _context;
+        private readonly QuanLyGiongVaThucAnChanNuoiContext _context;
 
-        public NhomController(QuanLyGiongVaThucAnChanNuoiAContext context)
+        public NhomController(QuanLyGiongVaThucAnChanNuoiContext context)
         {
             _context = context;
         }
 
         // 1. DANH SÁCH NHÓM
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Nhoms.ToListAsync());
-        }
+            var query = _context.Nhoms.AsQueryable();
 
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                // Tìm theo tên nhóm
+                query = query.Where(n => n.Ten.Contains(searchString));
+                ViewData["CurrentFilter"] = searchString; // Giữ lại từ khóa trên ô tìm kiếm
+            }
+
+            return View(await query.OrderByDescending(n => n.NgayTao).ToListAsync());
+        }
         // 2. TẠO NHÓM MỚI (Create)
         [HttpGet]
         public IActionResult Create()
@@ -112,6 +121,24 @@ namespace QuanLyGiongChanNuoi.Web.Controllers
                 await _context.SaveChangesAsync();
 
                 TempData["SuccessMessage"] = "Đã xóa nhóm thành công!";
+            }
+            return RedirectToAction(nameof(Index));
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ToggleStatus(int id)
+        {
+            var nhom = await _context.Nhoms.FindAsync(id);
+            if (nhom != null)
+            {
+                // Nếu TrangThai đang là null thì coi như là true, rồi đảo ngược lại
+                bool currentStatus = nhom.TrangThai ?? true;
+                nhom.TrangThai = !currentStatus;
+
+                await _context.SaveChangesAsync();
+
+                string msg = nhom.TrangThai == true ? "Đã MỞ KHÓA nhóm thành công." : "Đã KHÓA nhóm thành công.";
+                TempData["SuccessMessage"] = msg;
             }
             return RedirectToAction(nameof(Index));
         }

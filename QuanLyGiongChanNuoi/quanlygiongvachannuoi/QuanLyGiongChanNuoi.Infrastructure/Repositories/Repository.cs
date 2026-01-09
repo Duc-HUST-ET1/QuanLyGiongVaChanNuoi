@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using QuanLyGiongChanNuoi.Core.Interfaces;
 using QuanLyGiongChanNuoi.Infrastructure.Data;
+using QuanLyGiongChanNuoi.Infrastructure; // <--- Thêm dòng này
 
 namespace QuanLyGiongChanNuoi.Infrastructure.Repositories
 {
 	public class Repository<T> : IRepository<T> where T : class
 	{
-		protected readonly QuanLyGiongChanNuoiContext _context;
+		protected readonly QuanLyGiongVaThucAnChanNuoiContext _context;
 		protected readonly DbSet<T> _dbSet;
 
-		public Repository(QuanLyGiongChanNuoiContext context)
+		public Repository(QuanLyGiongVaThucAnChanNuoiContext context)
 		{
 			_context = context;
 			_dbSet = context.Set<T>();

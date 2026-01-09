@@ -15,3 +15,4 @@ E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygio
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\refint\QuanLyGiongChanNuoi.Services.dll
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\QuanLyGiongChanNuoi.Services.pdb
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\ref\QuanLyGiongChanNuoi.Services.dll
+E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\QuanLyGiongChanNuoi.Services.sourcelink.json

@@ -1,23 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace QuanLyGiongChanNuoi.Infrastructure.Models;
-
-public partial class Menu
+namespace QuanLyGiongChanNuoi.Infrastructure.Models
 {
-    public int Id { get; set; }
+    [Table("Menu")]
+    public partial class Menu
+    {
+        public Menu()
+        {
+            MenuCons = new HashSet<Menu>();
+        }
 
-    public string TenMenu { get; set; } = null!;
+        [Key]
+        public int Id { get; set; }
 
-    public string? LienKet { get; set; }
+        [Required(ErrorMessage = "Tên menu không được để trống")]
+        public string TenMenu { get; set; } = null!;
 
-    public int? MenuChaId { get; set; }
+        public string? LienKet { get; set; } // Giữ lại để tương thích dữ liệu cũ
 
-    public int CapDo { get; set; }
+        [Column("MenuChaID")]
+        public int? MenuChaId { get; set; }
 
-    public bool TrangThai { get; set; }
+        public int CapDo { get; set; }
 
-    public virtual ICollection<Menu> InverseMenuCha { get; set; } = new List<Menu>();
+        public bool TrangThai { get; set; }
 
-    public virtual Menu? MenuCha { get; set; }
+        // --- CÁC CỘT MỚI (BẮT BUỘC PHẢI CÓ) ---
+        public string? ControllerName { get; set; }
+        public string? ActionName { get; set; }
+        public string? Icon { get; set; }
+        public int? ThuTu { get; set; }
+        public bool HienThi { get; set; }
+        // --------------------------------------
+
+        [ForeignKey("MenuChaId")]
+        public virtual Menu? MenuCha { get; set; }
+        public virtual ICollection<Menu> MenuCons { get; set; }
+    }
 }

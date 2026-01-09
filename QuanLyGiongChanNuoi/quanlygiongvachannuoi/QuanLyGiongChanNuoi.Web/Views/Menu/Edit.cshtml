@@ -1,0 +1,64 @@
+﻿@model QuanLyGiongChanNuoi.Infrastructure.Models.Menu
+
+@{ ViewData["Title"] = "Chỉnh Sửa Menu"; }
+
+<div class="container mt-4">
+    <div class="card shadow col-md-8 mx-auto border-0">
+        <div class="card-header bg-warning text-dark">
+            <h4 class="mb-0"><i class="bi bi-pencil-square"></i> Chỉnh Sửa Menu</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit">
+                <input type="hidden" asp-for="Id" />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Tên Menu (*)</label>
+                    <input asp-for="TenMenu" class="form-control" required />
+                    <span asp-validation-for="TenMenu" class="text-danger"></span>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label fw-bold">Controller Name</label>
+                        <input asp-for="ControllerName" class="form-control" />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label fw-bold">Action Name</label>
+                        <input asp-for="ActionName" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label fw-bold">Icon Class</label>
+                        <input asp-for="Icon" class="form-control" />
+                        <small class="text-muted">Ví dụ: bi bi-house hoặc fa-solid fa-user</small>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label fw-bold">Thứ tự</label>
+                        <input asp-for="ThuTu" class="form-control" type="number" />
+                    </div>
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" asp-for="HienThi" />
+
+                    <label class="form-check-label fw-bold" asp-for="HienThi">
+                        Hiển thị trên menu
+                    </label>
+                </div>
+
+                <input type="hidden" asp-for="LienKet" />
+                <input type="hidden" asp-for="MenuChaId" />
+                <input type="hidden" asp-for="CapDo" />
+                <input type="hidden" asp-for="TrangThai" />
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-warning px-4"><i class="bi bi-save"></i> Cập Nhật</button>
+                    <a asp-action="Index" class="btn btn-secondary px-4">Quay lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

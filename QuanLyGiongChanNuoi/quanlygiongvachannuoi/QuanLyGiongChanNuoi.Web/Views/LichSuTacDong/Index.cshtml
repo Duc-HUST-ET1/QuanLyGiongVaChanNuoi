@@ -1,0 +1,75 @@
+﻿@model IEnumerable<QuanLyGiongChanNuoi.Infrastructure.Models.LichSuTacDong>
+
+    @{
+    ViewData["Title"] = "Lịch sử tác động hệ thống";
+    }
+
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Tra cứu lịch sử hệ thống</h6>
+        </div>
+        <div class="card-body">
+            <form method="get" class="row g-3 mb-4">
+                <div class="col-md-3">
+                    <label class="form-label">Từ khóa</label>
+                    <input type="text" name="tuKhoa" class="form-control" value="@ViewBag.TuKhoa" placeholder="Người dùng, hoạt động...">
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">Từ ngày</label>
+                    <input type="date" name="tuNgay" class="form-control" value="@ViewBag.TuNgay">
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">Đến ngày</label>
+                    <input type="date" name="denNgay" class="form-control" value="@ViewBag.DenNgay">
+                </div>
+                <div class="col-md-3 d-flex align-items-end">
+                    <button type="submit" class="btn btn-primary w-100"><i class="fa fa-search"></i> Tìm kiếm</button>
+                </div>
+            </form>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Thời gian</th>
+                            <th>Người thực hiện</th>
+                            <th>Hành động</th>
+                            <th>Đối tượng (Bảng)</th>
+                            <th>Khóa chính (ID)</th>
+                            <th>Mô tả chi tiết</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null && Model.Any())
+                    {
+                        foreach (var item in Model)
+                        {
+                        <tr>
+                            <td>@item.ThoiGian?.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                            <td>
+                                <span class="fw-bold">@item.NguoiDung?.HoTen</span><br />
+                                <small class="text-muted">(@item.NguoiDung?.TenDn)</small>
+                            </td>
+                            <td>
+                                @if(item.HoatDong == "Thêm mới") { <span class="badge bg-success">Thêm mới</span> }
+                                    else if(item.HoatDong == "Cập nhật") { <span class="badge bg-warning text-dark">Cập nhật</span> }
+                                    else if(item.HoatDong == "Xóa") { <span class="badge bg-danger">Xóa</span> }
+                                    else { <span class="badge bg-secondary">@item.HoatDong</span> }
+                            </td>
+                            <td>@item.BangLienQuan</td>
+                            <td>@item.KhoaChinh</td>
+                            <td>@item.MoTaThem</td>
+                        </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center text-muted">Không tìm thấy dữ liệu lịch sử nào.</td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,41 @@
+﻿@model QuanLyGiongChanNuoi.Infrastructure.Models.DonViHc
+@{ ViewData["Title"] = "Thêm Mới Xã"; }
+
+<div class="container mt-4">
+    <div class="card shadow col-md-8 mx-auto">
+        <div class="card-header bg-success text-white">
+            <h4><i class="bi bi-plus-circle"></i> Thêm Mới Đơn Vị Cấp Xã</h4>
+        </div>
+        <div class="card-body">
+
+            <div asp-validation-summary="All" class="alert alert-danger mb-3" style="display:none"></div>
+
+            <form asp-action="Create">
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Tên Xã / Phường (*)</label>
+                    <input asp-for="Ten" class="form-control" required placeholder="VD: Xã Yên Thắng" />
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label fw-bold">Loại Đơn Vị (*)</label>
+                        <select asp-for="CapHcId" class="form-select" asp-items="ViewBag.CapHcId" required></select>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label fw-bold">Trực Thuộc Quận/Huyện (*)</label>
+                        <select asp-for="TrucThuoc" class="form-select" asp-items="ViewBag.TrucThuoc" required>
+                            <option value="">-- Chọn Huyện/Quận --</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Mã Bưu Điện</label>
+                    <input asp-for="MaBuuDien" class="form-control" />
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success"><i class="bi bi-save"></i> Lưu Lại</button>
+                    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

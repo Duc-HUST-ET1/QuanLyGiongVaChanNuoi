@@ -1,8 +1,6 @@
 ﻿@model IEnumerable<QuanLyGiongChanNuoi.Infrastructure.Models.Nhom>
 
-    @{
-    ViewData["Title"] = "Quản lý Nhóm";
-    }
+    @{ ViewData["Title"] = "Quản lý Nhóm"; }
 
     <div class="container mt-4">
         <div class="d-flex justify-content-between align-items-center mb-4">
@@ -10,6 +8,26 @@
             <a asp-action="Create" class="btn btn-primary shadow-sm">
                 <i class="bi bi-plus-lg"></i> Tạo Nhóm Mới
             </a>
+        </div>
+
+        <div class="card mb-4 shadow-sm border-0 bg-light">
+            <div class="card-body py-3">
+                <form asp-action="Index" method="get">
+                    <div class="input-group">
+                        <span class="input-group-text bg-white border-end-0">
+                            <i class="bi bi-search text-muted"></i>
+                        </span>
+                        <input type="text" name="searchString" class="form-control border-start-0"
+                               placeholder="Nhập tên nhóm để tìm kiếm..."
+                               value="@ViewData["CurrentFilter"]">
+                        <button class="btn btn-primary" type="submit">Tìm kiếm</button>
+                        @if (!string.IsNullOrEmpty(ViewData["CurrentFilter"] as string))
+                    {
+                        <a asp-action="Index" class="btn btn-outline-secondary">Xóa lọc</a>
+                    }
+                    </div>
+                </form>
+            </div>
         </div>
 
         @if (TempData["SuccessMessage"] != null)
@@ -28,6 +46,7 @@
                             <th class="py-3 ps-3">Tên Nhóm</th>
                             <th class="py-3">Mô Tả</th>
                             <th class="py-3">Ngày Tạo</th>
+                            <th class="py-3 text-center">Trạng Thái</th>
                             <th class="py-3 text-center" style="width: 200px;">Thao Tác</th>
                         </tr>
                     </thead>
@@ -42,28 +61,42 @@
                             <td>@item.NgayTao?.ToString("dd/MM/yyyy")</td>
 
                             <td class="text-center">
+                                <form asp-action="ToggleStatus" asp-route-id="@item.Id" method="post">
+                                    @if (item.TrangThai == true || item.TrangThai == null)
+                                        {
+                                    <button type="submit" class="btn badge bg-success border-0 py-2 px-3"
+                                            title="Bấm để KHÓA nhóm này"
+                                            onclick="return confirm('Bạn có muốn KHÓA nhóm @item.Ten không?');">
+                                        <i class="bi bi-unlock-fill me-1"></i> Hoạt động
+                                    </button>
+                                        }
+                                        else
+                                        {
+                                    <button type="submit" class="btn badge bg-secondary border-0 py-2 px-3"
+                                            title="Bấm để MỞ KHÓA nhóm này"
+                                            onclick="return confirm('Bạn có muốn MỞ KHÓA nhóm @item.Ten không?');">
+                                        <i class="bi bi-lock-fill me-1"></i> Đang khóa
+                                    </button>
+                                        }
+                                </form>
+                            </td>
+
+                            <td class="text-center">
                                 <div class="d-flex justify-content-center gap-2">
                                     <a asp-controller="PhanQuyen" asp-action="PhanQuyenChoNhom" asp-route-nhomId="@item.Id"
-                                       class="btn btn-info btn-sm text-white shadow-sm"
-                                       title="Phân quyền cho nhóm này"
-                                       style="width: 35px; height: 35px; display: flex; align-items: center; justify-content: center;">
+                                       class="btn btn-info btn-sm text-white shadow-sm" title="Phân quyền">
                                         <i class="bi bi-shield-lock-fill"></i>
                                     </a>
 
                                     <a asp-action="Edit" asp-route-id="@item.Id"
-                                       class="btn btn-warning btn-sm text-white shadow-sm"
-                                       title="Sửa thông tin nhóm"
-                                       style="width: 35px; height: 35px; display: flex; align-items: center; justify-content: center;">
+                                       class="btn btn-warning btn-sm text-white shadow-sm" title="Sửa">
                                         <i class="bi bi-pencil-square"></i>
                                     </a>
 
                                     <form asp-action="Delete" asp-route-id="@item.Id" method="post"
                                           style="margin: 0;"
-                                          onsubmit="return confirm('CẢNH BÁO: Xóa nhóm này sẽ xóa cả phân quyền của các thành viên trong nhóm!\nBạn có chắc chắn muốn xóa nhóm @item.Ten không?');">
-                                        <button type="submit"
-                                                class="btn btn-danger btn-sm shadow-sm"
-                                                title="Xóa nhóm này"
-                                                style="width: 35px; height: 35px; display: flex; align-items: center; justify-content: center;">
+                                          onsubmit="return confirm('CẢNH BÁO: Xóa nhóm sẽ xóa cả phân quyền!\nBạn có chắc muốn xóa @item.Ten không?');">
+                                        <button type="submit" class="btn btn-danger btn-sm shadow-sm" title="Xóa">
                                             <i class="bi bi-trash"></i>
                                         </button>
                                     </form>
@@ -75,8 +108,8 @@
                     else
                     {
                         <tr>
-                            <td colspan="4" class="text-center py-4 text-muted">
-                                <i class="bi bi-inbox fs-3 d-block mb-2"></i> Chưa có nhóm nào. Hãy tạo mới!
+                            <td colspan="5" class="text-center py-4 text-muted">
+                                <i class="bi bi-inbox fs-3 d-block mb-2"></i> Không tìm thấy nhóm nào.
                             </td>
                         </tr>
                     }

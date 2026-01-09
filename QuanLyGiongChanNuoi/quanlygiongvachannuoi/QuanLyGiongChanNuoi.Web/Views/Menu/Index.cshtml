@@ -1,0 +1,73 @@
+﻿@model IEnumerable<QuanLyGiongChanNuoi.Infrastructure.Models.Menu>
+
+@{ ViewData["Title"] = "Quản lý Menu"; }
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="text-primary fw-bold"><i class="bi bi-list-task"></i> Quản Lý Menu Hệ Thống</h3>
+        <a asp-action="Create" class="btn btn-primary shadow-sm"><i class="bi bi-plus-lg"></i> Thêm Mới</a>
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <i class="bi bi-check-circle-fill me-2"></i> @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <div class="card shadow border-0">
+        <div class="card-body p-0">
+            <table class="table table-hover table-striped mb-0 align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th class="text-center">TT</th>
+                        <th>Tên Menu</th>
+                        <th>Icon</th>
+                        <th>Controller</th>
+                        <th>Action</th>
+                        <th class="text-center">Hiển Thị</th>
+                        <th class="text-center">Thao Tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="text-center fw-bold">@item.ThuTu</td>
+                            <td class="text-primary fw-bold">@item.TenMenu</td>
+                            <td>
+                                @if(!string.IsNullOrEmpty(item.Icon))
+                                {
+                                    <i class="@item.Icon text-secondary fs-5"></i> 
+                                    <small class="text-muted ms-1">(@item.Icon)</small>
+                                }
+                            </td>
+                            <td><span class="badge bg-info text-dark">@item.ControllerName</span></td>
+                            <td><span class="badge bg-light text-dark border">@item.ActionName</span></td>
+                            
+                            <td class="text-center">
+                                @if (item.HienThi == true)
+                                {
+                                    <i class="bi bi-check-circle-fill text-success fs-4" title="Đang hiển thị"></i>
+                                }
+                                else
+                                {
+                                    <i class="bi bi-x-circle-fill text-danger fs-4" title="Đang ẩn"></i>
+                                }
+                            </td>
+
+                            <td class="text-center">
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm text-white"><i class="bi bi-pencil-square"></i></a>
+                                <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline"
+                                      onsubmit="return confirm('Bạn có chắc chắn muốn xóa menu này?');">
+                                    <button type="submit" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

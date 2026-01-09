@@ -2,15 +2,17 @@
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Storage;
 using QuanLyGiongChanNuoi.Core.Interfaces;
+using QuanLyGiongChanNuoi.Infrastructure.Data;
+using QuanLyGiongChanNuoi.Infrastructure; // <--- Thêm dòng này
 
 namespace QuanLyGiongChanNuoi.Infrastructure.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly QuanLyGiongVaThucAnChanNuoiAContext _context;
+        private readonly QuanLyGiongVaThucAnChanNuoiContext _context;
         private IDbContextTransaction _transaction;
 
-        public UnitOfWork(QuanLyGiongVaThucAnChanNuoiAContext context)
+        public UnitOfWork(QuanLyGiongVaThucAnChanNuoiContext context)
         {
             _context = context;
 

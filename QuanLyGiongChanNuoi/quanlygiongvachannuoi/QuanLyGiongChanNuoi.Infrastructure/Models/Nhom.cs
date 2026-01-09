@@ -1,19 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace QuanLyGiongChanNuoi.Infrastructure.Models;
-
-public partial class Nhom
+namespace QuanLyGiongChanNuoi.Infrastructure.Models
 {
-    public int Id { get; set; }
+    [Table("Nhom")]
+    public partial class Nhom
+    {
+        public Nhom()
+        {
+            PhanQuyenNhoms = new HashSet<PhanQuyenNhom>();
+            ThanhVienNhoms = new HashSet<ThanhVienNhom>();
+        }
 
-    public string? Ten { get; set; }
+        [Key]
+        public int Id { get; set; }
 
-    public string? Mota { get; set; }
+        public string? Ten { get; set; }
 
-    public DateTime? NgayTao { get; set; }
+        [Column("mota")]
+        public string? Mota { get; set; }
 
-    public virtual ICollection<ThanhVienNhom> ThanhVienNhoms { get; set; } = new List<ThanhVienNhom>();
+        public DateTime? NgayTao { get; set; }
 
-    public virtual ICollection<PhanQuyenNhom> PhanQuyenNhoms { get; set; } = new List<PhanQuyenNhom>();
+        public bool? TrangThai { get; set; } // Cột này chúng ta đã thêm ở bài trước
+
+        public virtual ICollection<PhanQuyenNhom> PhanQuyenNhoms { get; set; }
+        public virtual ICollection<ThanhVienNhom> ThanhVienNhoms { get; set; }
+    }
 }

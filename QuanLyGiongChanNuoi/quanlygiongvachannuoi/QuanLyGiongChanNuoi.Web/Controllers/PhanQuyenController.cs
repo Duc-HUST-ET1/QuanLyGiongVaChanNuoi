@@ -4,15 +4,16 @@ using Microsoft.EntityFrameworkCore;
 using QuanLyGiongChanNuoi.Infrastructure;
 using QuanLyGiongChanNuoi.Infrastructure.Models;
 using QuanLyGiongChanNuoi.Web.Models;
+using QuanLyGiongChanNuoi.Infrastructure.Data;
 
 namespace QuanLyGiongChanNuoi.Web.Controllers
 {
     [Authorize(Roles = "Quản trị viên")]
     public class PhanQuyenController : Controller
     {
-        private readonly QuanLyGiongVaThucAnChanNuoiAContext _context;
+        private readonly QuanLyGiongVaThucAnChanNuoiContext _context;
 
-        public PhanQuyenController(QuanLyGiongVaThucAnChanNuoiAContext context)
+        public PhanQuyenController(QuanLyGiongVaThucAnChanNuoiContext context)
         {
             _context = context;
         }

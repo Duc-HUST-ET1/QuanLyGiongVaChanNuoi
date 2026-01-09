@@ -4,9 +4,9 @@
     "\\QuanLyGiongChanNuoi",
     "\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi",
     "\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models",
-    "\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web",
-    "\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers"
+    "\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views",
+    "\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Shared"
   ],
-  "SelectedNode": "\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure",
+  "SelectedNode": "\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\.gitignore",
   "PreviewInSolutionExplorer": false
 }

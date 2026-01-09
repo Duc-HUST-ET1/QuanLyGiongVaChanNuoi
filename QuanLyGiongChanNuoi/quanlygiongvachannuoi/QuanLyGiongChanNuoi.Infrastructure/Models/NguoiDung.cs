@@ -27,8 +27,6 @@ public partial class NguoiDung
 
     public virtual ICollection<LichSuTacDong> LichSuTacDongs { get; set; } = new List<LichSuTacDong>();
 
-    public virtual ICollection<LichSuTruyCap> LichSuTruyCaps { get; set; } = new List<LichSuTruyCap>();
-
     public virtual ICollection<ThanhVienNhom> ThanhVienNhoms { get; set; } = new List<ThanhVienNhom>();
 
     public virtual ICollection<PhanQuyenNguoiDung> PhanQuyenNguoiDungs { get; set; } = new List<PhanQuyenNguoiDung>();

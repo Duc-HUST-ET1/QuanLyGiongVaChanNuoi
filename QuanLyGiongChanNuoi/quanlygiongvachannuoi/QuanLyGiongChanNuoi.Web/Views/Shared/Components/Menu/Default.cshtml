@@ -1,0 +1,38 @@
+﻿@model IEnumerable<QuanLyGiongChanNuoi.Infrastructure.Models.Menu>
+
+@* Duyệt qua từng Menu Cha *@
+@foreach (var item in Model)
+{
+    // Kiểm tra xem menu này có con không? (Để tạo dropdown)
+    if (item.MenuCons != null && item.MenuCons.Any(c => c.HienThi == true))
+    {
+        // === TRƯỜNG HỢP CÓ MENU CON (DROPDOWN) ===
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown">
+                @if (!string.IsNullOrEmpty(item.Icon)) { <i class="@item.Icon"></i> } 
+                @item.TenMenu
+            </a>
+            <ul class="dropdown-menu">
+                @foreach (var child in item.MenuCons.Where(c => c.HienThi == true).OrderBy(c => c.ThuTu))
+                {
+                    <li>
+                        <a class="dropdown-item" asp-controller="@child.ControllerName" asp-action="@child.ActionName">
+                            @if (!string.IsNullOrEmpty(child.Icon)) { <i class="@child.Icon me-1"></i> }
+                            @child.TenMenu
+                        </a>
+                    </li>
+                }
+            </ul>
+        </li>
+    }
+    else
+    {
+        // === TRƯỜNG HỢP MENU ĐƠN (KHÔNG CÓ CON) ===
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-controller="@item.ControllerName" asp-action="@item.ActionName">
+                @if (!string.IsNullOrEmpty(item.Icon)) { <i class="@item.Icon"></i> }
+                @item.TenMenu
+            </a>
+        </li>
+    }
+}
