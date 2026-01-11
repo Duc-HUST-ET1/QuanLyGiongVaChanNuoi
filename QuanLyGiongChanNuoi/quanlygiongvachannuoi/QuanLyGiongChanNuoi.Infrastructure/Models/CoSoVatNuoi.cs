@@ -1,25 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace QuanLyGiongChanNuoi.Infrastructure.Models;
-
-public partial class CoSoVatNuoi
+namespace QuanLyGiongChanNuoi.Infrastructure.Models
 {
-    public int Id { get; set; }
+    [Table("CoSoVatNuoi")]
+    public partial class CoSoVatNuoi
+    {
+        [Key]
+        public int Id { get; set; }
 
-    public string TenCoSo { get; set; } = null!;
+        [Display(Name = "Tên Cơ sở")]
+        public string TenCoSo { get; set; } = null!;
 
-    public string? DiaChi { get; set; }
+        [Display(Name = "Địa chỉ")]
+        public string? DiaChi { get; set; }
 
-    public bool? Trangthai { get; set; }
+        // Ánh xạ cột 'trangthai' (viết thường trong DB) sang 'TrangThai' (viết hoa trong code)
+        [Column("trangthai")]
+        public bool? TrangThai { get; set; }
 
-    public int ToChucCaNhanId { get; set; }
+        [Column("ToChucCaNhanID")] // Đảm bảo khớp tên cột SQL
+        [Display(Name = "Chủ sở hữu")]
+        public int ToChucCaNhanID { get; set; } // Viết hoa chữ D để khớp với Controller
 
-    public string LoaiCoSo { get; set; } = null!;
+        [Display(Name = "Loại cơ sở")]
+        public string LoaiCoSo { get; set; } = null!;
 
-    public int GiongVatNuoiId { get; set; }
+        [Column("GiongVatNuoiID")] // Đảm bảo khớp tên cột SQL
+        [Display(Name = "Giống vật nuôi")]
+        public int GiongVatNuoiID { get; set; } // Viết hoa chữ D để khớp với Controller
 
-    public virtual GiongVatNuoi GiongVatNuoi { get; set; } = null!;
+        // Quan hệ bảng (Foreign Keys)
+        [ForeignKey("ToChucCaNhanID")]
+        [InverseProperty("CoSoVatNuois")]
+        public virtual ToChucCaNhan? ToChucCaNhan { get; set; }
 
-    public virtual ToChucCaNhan ToChucCaNhan { get; set; } = null!;
+        [ForeignKey("GiongVatNuoiID")]
+        public virtual GiongVatNuoi? GiongVatNuoi { get; set; }
+    }
 }

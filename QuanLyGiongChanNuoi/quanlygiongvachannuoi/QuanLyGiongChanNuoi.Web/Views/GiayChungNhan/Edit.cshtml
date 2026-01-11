@@ -1,0 +1,73 @@
+﻿@model QuanLyGiongChanNuoi.Infrastructure.Models.GiayChungNhan
+@{ ViewData["Title"] = "Cập nhật GCN"; }
+
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header bg-warning text-dark">
+            <h5 class="mb-0">Cập nhật GCN: @Model.SoGiayChungNhan</h5>
+            <small>Của cơ sở: @ViewBag.TenCoSo</small>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="CoSoThucAnId" />
+
+                <div class="mb-3">
+                    <label class="fw-bold">Số Giấy chứng nhận</label>
+                    <input asp-for="SoGiayChungNhan" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="fw-bold">Nơi cấp</label>
+                    <input asp-for="NoiCap" class="form-control" />
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label class="fw-bold">Ngày cấp</label>
+                        <input asp-for="NgayCap" class="form-control" type="date" />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="fw-bold">Ngày hết hạn</label>
+                        <input asp-for="NgayHetHan" class="form-control" type="date" />
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="fw-bold">Mô tả</label>
+                    <textarea asp-for="MoTa" class="form-control" rows="3"></textarea>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <a asp-action="Index" asp-route-coSoId="@Model.CoSoThucAnId" class="btn btn-secondary">Quay lại</a>
+                    <div>
+                        <button type="submit" class="btn btn-primary me-2">Lưu thay đổi</button>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal">Xóa GCN này</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="deleteModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title">Xác nhận xóa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                Bạn có chắc chắn muốn xóa Giấy chứng nhận số <strong>@Model.SoGiayChungNhan</strong> không?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <form asp-action="Delete" method="post">
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <button type="submit" class="btn btn-danger">Xóa ngay</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

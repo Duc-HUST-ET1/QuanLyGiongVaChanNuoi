@@ -1,0 +1,70 @@
+﻿@model IEnumerable<QuanLyGiongChanNuoi.Infrastructure.Models.GiayChungNhan>
+
+    @{
+    ViewData["Title"] = "Quản lý Giấy chứng nhận";
+    int coSoId = ViewBag.CoSoId;
+    }
+
+    <div class="container mt-4">
+        <div class="alert alert-info">
+            <h5><i class="fas fa-certificate"></i> Quản lý GCN cho cơ sở: <strong>@ViewBag.TenCoSo</strong></h5>
+        </div>
+
+        <p>
+            <a asp-action="Create" asp-route-coSoId="@coSoId" class="btn btn-success">
+                <i class="fas fa-plus"></i> Cấp Giấy chứng nhận mới
+            </a>
+            <a asp-controller="CoSoThucAn" asp-action="Index" asp-route-loaiHinh="@ViewBag.LoaiHinh" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Quay lại DS Cơ sở
+            </a>
+        </p>
+
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Số GCN</th>
+                    <th>Ngày cấp</th>
+                    <th>Ngày hết hạn</th>
+                    <th>Nơi cấp</th>
+                    <th>Trạng thái</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="6" class="text-center text-muted">Cơ sở này chưa được cấp giấy chứng nhận nào.</td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var item in Model)
+                {
+                    // Kiểm tra hết hạn
+                    bool isExpired = item.NgayHetHan.HasValue && item.NgayHetHan.Value < DateTime.Now;
+
+                <tr>
+                    <td class="fw-bold">@item.SoGiayChungNhan</td>
+                    <td>@item.NgayCap.ToString("dd/MM/yyyy")</td>
+                    <td>@(item.NgayHetHan.HasValue ? item.NgayHetHan.Value.ToString("dd/MM/yyyy") : "Không thời hạn")</td>
+                    <td>@item.NoiCap</td>
+                    <td>
+                        @if (isExpired)
+                            {
+                        <span class="badge bg-danger">Đã hết hạn</span>
+                            }
+                            else
+                            {
+                        <span class="badge bg-success">Còn hiệu lực</span>
+                            }
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Sửa</a>
+                    </td>
+                </tr>
+                }
+            }
+            </tbody>
+        </table>
+    </div>

@@ -1,0 +1,73 @@
+﻿@model QuanLyGiongChanNuoi.Infrastructure.Models.GiongCanBaoTon
+@{ ViewData["Title"] = "Cập nhật"; }
+
+<div class="container mt-4">
+    <div class="card border-danger">
+        <div class="card-header bg-danger text-white">
+            <h5 class="mb-0">Cập nhật thông tin Cấm xuất khẩu</h5>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit" class="row">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="Loai" />
+
+                <div class="col-md-6 mb-3">
+                    <label class="fw-bold">Giống vật nuôi</label>
+                    <select asp-for="GiongId" class="form-control" asp-items="ViewBag.GiongId"></select>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label class="fw-bold">Ngày ban hành</label>
+                    <input asp-for="NgayBaoTon" class="form-control" type="date" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label class="fw-bold">Lý do cấm</label>
+                    <textarea asp-for="LyDo" class="form-control" rows="3"></textarea>
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <div class="form-check mt-2">
+                        <input class="form-check-input" type="checkbox" id="chkTrangThai"
+                               name="TrangThai" value="true"
+                               @(Model.TrangThai == true ? "checked" : "") />
+                        <label class="form-check-label user-select-none" for="chkTrangThai">
+                            Đang áp dụng lệnh cấm
+                        </label>
+                        <input type="hidden" name="TrangThai" value="false" />
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-between">
+                    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+                    <div>
+                        <button type="submit" class="btn btn-primary me-2">Lưu thay đổi</button>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal">Xóa bỏ</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="deleteModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title">Xác nhận xóa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                Bạn có chắc chắn muốn xóa giống này khỏi danh sách Cấm xuất khẩu?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <form asp-action="Delete" method="post">
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <button type="submit" class="btn btn-danger">Xóa ngay</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

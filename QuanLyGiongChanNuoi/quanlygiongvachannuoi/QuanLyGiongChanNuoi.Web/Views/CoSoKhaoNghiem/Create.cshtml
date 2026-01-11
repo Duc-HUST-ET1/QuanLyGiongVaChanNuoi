@@ -1,0 +1,36 @@
+﻿@model QuanLyGiongChanNuoi.Infrastructure.Models.CoSoVatNuoi
+
+@{ ViewData["Title"] = "Thêm mới"; }
+
+<h4>Thêm mới Cơ sở Khảo nghiệm</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div class="form-group mb-3">
+                <label class="control-label">Tên Cơ sở (*)</label>
+                <input asp-for="TenCoSo" class="form-control" required />
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label">Thuộc Tổ chức/Cá nhân</label>
+                <select asp-for="ToChucCaNhanID" class="form-control" asp-items="ViewBag.ToChucCaNhanID"></select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label">Giống vật nuôi khảo nghiệm</label>
+                <select asp-for="GiongVatNuoiID" class="form-control" asp-items="ViewBag.GiongVatNuoiID"></select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label">Địa chỉ</label>
+                <input asp-for="DiaChi" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Lưu dữ liệu</button>
+                <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>

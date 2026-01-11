@@ -1,0 +1,82 @@
+﻿@model IEnumerable<QuanLyGiongChanNuoi.Infrastructure.Models.CoSoThucAn>
+    @{
+    string loai = ViewBag.LoaiHinh;
+    ViewData["Title"] = "Cơ sở " + loai + " thức ăn";
+    }
+
+    <div class="container-fluid mt-4">
+        <h2 class="text-primary text-uppercase"><i class="fas fa-warehouse"></i> Quản lý Cơ sở @loai Thức ăn</h2>
+
+        <div class="card mb-3 mt-3">
+            <div class="card-body">
+                <form asp-action="Index" method="get" class="row g-2">
+                    <input type="hidden" name="loaiHinh" value="@loai" />
+                    <div class="col-md-9">
+                        <input type="text" name="searchString" class="form-control"
+                               placeholder="Nhập tên cơ sở, địa chỉ hoặc chủ sở hữu..." value="@ViewBag.CurrentFilter" />
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-primary w-100">Tìm kiếm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <p>
+            <a asp-action="Create" asp-route-loaiHinh="@loai" class="btn btn-success">
+                <i class="fas fa-plus"></i> Thêm cơ sở @loai mới
+            </a>
+        </p>
+
+        <table class="table table-bordered table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Tên Cơ sở</th>
+                    <th>Chủ sở hữu</th>
+                    <th>Sản phẩm chính</th>
+                    <th>Địa chỉ</th>
+                    @if (loai == "Sản xuất") {
+                    <th>Giấy Chứng Nhận</th>
+                }
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model) {
+                <tr>
+                    <td class="fw-bold">@item.TenCoSo</td>
+                    <td>@item.ToChucCaNhan?.Ten</td>
+                    <td>@item.ThucAnChanNuoi?.TenThucAn</td>
+                    <td>@item.DiaChi</td>
+
+                    @if (loai == "Sản xuất") {
+                    <td>
+                        @if (item.GiayChungNhans != null && item.GiayChungNhans.Any())
+        {
+                        @foreach(var gcn in item.GiayChungNhans)
+            {
+                        <span class="badge bg-success mb-1">
+                            @gcn.SoGiayChungNhan
+                        </span><br />
+            }
+        }
+        else
+        {
+                        <span class="text-muted fst-italic small">Chưa có GCN</span><br />
+        }
+
+                        <a asp-controller="GiayChungNhan" asp-action="Index" asp-route-coSoId="@item.Id"
+                           class="btn btn-outline-primary btn-sm mt-1" style="font-size: 0.75rem;">
+                            <i class="fas fa-edit"></i> Cấp/Sửa GCN
+                        </a>
+                    </td>
+}
+
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Sửa</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>

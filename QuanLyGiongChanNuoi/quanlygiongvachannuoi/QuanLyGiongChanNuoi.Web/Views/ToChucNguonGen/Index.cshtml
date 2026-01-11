@@ -1,0 +1,58 @@
+﻿@model IEnumerable<QuanLyGiongChanNuoi.Infrastructure.Models.ToChucNguonGen>
+
+    @{
+    string loai = ViewBag.LoaiHoatDong;
+    ViewData["Title"] = "Quản lý " + loai;
+    }
+
+    <div class="container-fluid mt-4">
+        <h2 class="text-primary text-uppercase"><i class="fas fa-dna"></i> Quản lý @loai Nguồn Gen</h2>
+
+        <div class="card mb-3 mt-3">
+            <div class="card-body">
+                <form asp-action="Index" method="get" class="row g-2">
+                    <input type="hidden" name="loaiHoatDong" value="@loai" />
+
+                    <div class="col-md-9">
+                        <input type="text" name="searchString" class="form-control"
+                               placeholder="Tìm theo tên tổ chức, tên nguồn gen hoặc khu vực..."
+                               value="@ViewBag.CurrentFilter" />
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-primary w-100">Tìm kiếm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <p>
+            <a asp-action="Create" asp-route-loaiHoatDong="@loai" class="btn btn-success">
+                <i class="fas fa-plus"></i> Thêm hoạt động @loai
+            </a>
+        </p>
+
+        <table class="table table-bordered table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Tổ chức / Cá nhân</th>
+                    <th>Nguồn gen giống</th>
+                    <th>Khu vực</th>
+                    <th>Ngày thực hiện</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model) {
+                <tr>
+                    <td>@item.ToChucCaNhan?.Ten</td>
+                    <td class="fw-bold text-info">@item.NguonGen?.TenNguonGen</td>
+                    <td>@item.KhuVuc</td>
+                    <td>@item.NgayThuThap?.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Sửa</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>

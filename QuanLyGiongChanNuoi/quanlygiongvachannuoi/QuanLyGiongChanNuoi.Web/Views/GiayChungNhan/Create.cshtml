@@ -1,0 +1,43 @@
+﻿@model QuanLyGiongChanNuoi.Infrastructure.Models.GiayChungNhan
+@{ ViewData["Title"] = "Cấp GCN Mới"; }
+
+<h4>Cấp GCN cho: <span class="text-primary">@ViewBag.TenCoSo</span></h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <input type="hidden" asp-for="CoSoThucAnId" />
+
+            <div class="form-group mb-3">
+                <label class="fw-bold">Số Giấy chứng nhận (*)</label>
+                <input asp-for="SoGiayChungNhan" class="form-control" placeholder="VD: CN-2024-001" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="fw-bold">Nơi cấp</label>
+                <input asp-for="NoiCap" class="form-control" value="Cục chăn nuôi" />
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 form-group mb-3">
+                    <label class="fw-bold">Ngày cấp</label>
+                    <input asp-for="NgayCap" class="form-control" type="date" />
+                </div>
+                <div class="col-md-6 form-group mb-3">
+                    <label class="fw-bold">Ngày hết hạn (Nếu có)</label>
+                    <input asp-for="NgayHetHan" class="form-control" type="date" />
+                </div>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="fw-bold">Mô tả / Ghi chú</label>
+                <textarea asp-for="MoTa" class="form-control" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Lưu Giấy chứng nhận</button>
+            <a asp-action="Index" asp-route-coSoId="@Model.CoSoThucAnId" class="btn btn-secondary">Hủy</a>
+        </form>
+    </div>
+</div>

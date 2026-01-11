@@ -1,23 +1,42 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace QuanLyGiongChanNuoi.Infrastructure.Models;
-
-public partial class GiayChungNhan
+namespace QuanLyGiongChanNuoi.Infrastructure.Models
 {
-    public int Id { get; set; }
+    [Table("GiayChungNhan")]
+    public partial class GiayChungNhan
+    {
+        [Key]
+        public int Id { get; set; }
 
-    public int CoSoThucAnId { get; set; }
+        [Column("CoSoThucAnID")]
+        public int CoSoThucAnId { get; set; }
 
-    public string SoGiayChungNhan { get; set; } = null!;
+        [Required]
+        [StringLength(50)]
+        [Display(Name = "Số giấy chứng nhận")]
+        public string SoGiayChungNhan { get; set; } = null!;
 
-    public DateOnly NgayCap { get; set; }
+        [Column(TypeName = "date")]
+        [Display(Name = "Ngày cấp")]
+        public DateTime NgayCap { get; set; }
 
-    public DateOnly? NgayHetHan { get; set; }
+        [Column(TypeName = "date")]
+        [Display(Name = "Ngày hết hạn")]
+        public DateTime? NgayHetHan { get; set; }
 
-    public string? NoiCap { get; set; }
+        [StringLength(50)]
+        [Display(Name = "Nơi cấp")]
+        public string? NoiCap { get; set; }
 
-    public string? MoTa { get; set; }
+        // === THÊM LẠI DÒNG NÀY ĐỂ HẾT LỖI ===
+        [StringLength(200)]
+        [Display(Name = "Mô tả")]
+        public string? MoTa { get; set; }
 
-    public virtual CoSoThucAn CoSoThucAn { get; set; } = null!;
+        [ForeignKey("CoSoThucAnId")]
+        [InverseProperty("GiayChungNhans")]
+        public virtual CoSoThucAn? CoSoThucAn { get; set; }
+    }
 }

@@ -1,0 +1,60 @@
+﻿@model QuanLyGiongChanNuoi.Infrastructure.Models.ToChucCaNhan
+
+@{ ViewData["Title"] = "Thêm mới"; }
+
+<h2>Thêm mới Tổ chức/Cá nhân</h2>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Ten" class="control-label">Tên đơn vị/Cá nhân (*)</label>
+                <input asp-for="Ten" class="form-control" required />
+                <span asp-validation-for="Ten" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="LoaiHinh" class="control-label">Loại hình</label>
+                <select asp-for="LoaiHinh" class="form-control">
+                    <option value="ToChuc">Tổ chức/Doanh nghiệp</option>
+                    <option value="CaNhan">Cá nhân/Hộ gia đình</option>
+                </select>
+                <span asp-validation-for="LoaiHinh" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="LoaiHoatDong" class="control-label">Lĩnh vực hoạt động (*)</label>
+                <select asp-for="LoaiHoatDong" class="form-control" required>
+                    <option value="">-- Chọn lĩnh vực --</option>
+                    <option value="SanXuatGiong">2.1.1 - Sản xuất con giống vật nuôi</option>
+                    <option value="SanXuatTinhPhoi">2.1.3 - SX Tinh, phôi, ấu trùng, ấp trứng</option>
+                    <option value="SoHuuDucGiong">2.1.5 - Sở hữu đực giống phối trực tiếp</option>
+                    <option value="MuaBan">2.1.7 - Mua bán con giống, tinh, phôi</option>
+                </select>
+                <span asp-validation-for="LoaiHoatDong" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="DiaChi" class="control-label">Địa chỉ</label>
+                <input asp-for="DiaChi" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="SoDienThoai" class="control-label">Số điện thoại</label>
+                <input asp-for="SoDienThoai" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="control-label">Email</label>
+                <input asp-for="Email" class="form-control" type="email" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Tạo mới" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>

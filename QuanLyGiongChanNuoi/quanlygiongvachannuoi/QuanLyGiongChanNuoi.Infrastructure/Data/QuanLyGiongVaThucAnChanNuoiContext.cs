@@ -162,18 +162,39 @@ namespace QuanLyGiongChanNuoi.Infrastructure.Data // Đảm bảo namespace đú
                 entity.HasOne(d => d.ToChucCaNhan).WithMany(p => p.CoSoThucAns).HasForeignKey(d => d.ToChucCaNhanId).OnDelete(DeleteBehavior.ClientSetNull).HasConstraintName("FK__CoSoThucA__ToChu__208CD6FA");
             });
 
-            modelBuilder.Entity<CoSoVatNuoi>(entity => {
-                entity.HasKey(e => e.Id).HasName("PK__CoSoVatN__3214EC2784BA9E05");
+            modelBuilder.Entity<CoSoVatNuoi>(entity =>
+            {
                 entity.ToTable("CoSoVatNuoi");
+
                 entity.Property(e => e.Id).HasColumnName("ID");
+
                 entity.Property(e => e.DiaChi).HasMaxLength(200);
-                entity.Property(e => e.GiongVatNuoiId).HasColumnName("GiongVatNuoiID");
+
+                // SỬA: Đổi e.GiongVatNuoiId thành e.GiongVatNuoiID (chữ D hoa)
+                entity.Property(e => e.GiongVatNuoiID).HasColumnName("GiongVatNuoiID");
+
                 entity.Property(e => e.LoaiCoSo).HasMaxLength(50);
+
                 entity.Property(e => e.TenCoSo).HasMaxLength(100);
-                entity.Property(e => e.ToChucCaNhanId).HasColumnName("ToChucCaNhanID");
-                entity.Property(e => e.Trangthai).HasColumnName("trangthai");
-                entity.HasOne(d => d.GiongVatNuoi).WithMany(p => p.CoSoVatNuois).HasForeignKey(d => d.GiongVatNuoiId).OnDelete(DeleteBehavior.ClientSetNull).HasConstraintName("FK__CoSoVatNu__Giong__2180FB33");
-                entity.HasOne(d => d.ToChucCaNhan).WithMany(p => p.CoSoVatNuois).HasForeignKey(d => d.ToChucCaNhanId).OnDelete(DeleteBehavior.ClientSetNull).HasConstraintName("FK__CoSoVatNu__ToChu__22751F6C");
+
+                // SỬA: Đổi e.ToChucCaNhanId thành e.ToChucCaNhanID (chữ D hoa)
+                entity.Property(e => e.ToChucCaNhanID).HasColumnName("ToChucCaNhanID");
+
+                // SỬA: Đổi e.Trangthai thành e.TrangThai (chữ T hoa)
+                entity.Property(e => e.TrangThai).HasColumnName("trangthai");
+
+                // Cấu hình khóa ngoại (Foreign Keys)
+                entity.HasOne(d => d.GiongVatNuoi)
+                    .WithMany(p => p.CoSoVatNuois) // Đảm bảo trong model GiongVatNuoi có ICollection<CoSoVatNuoi>
+                    .HasForeignKey(d => d.GiongVatNuoiID) // Sửa thành ID hoa
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK__CoSoVatNu__Giong__4CA06362"); // Tên constraint có thể khác tùy DB của bạn, cứ giữ nguyên nếu code cũ có
+
+                entity.HasOne(d => d.ToChucCaNhan)
+                    .WithMany(p => p.CoSoVatNuois) // Đảm bảo trong model ToChucCaNhan có ICollection<CoSoVatNuoi>
+                    .HasForeignKey(d => d.ToChucCaNhanID) // Sửa thành ID hoa
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK__CoSoVatNu__ToChu__4BAC3F29");
             });
 
             modelBuilder.Entity<DonViHc>(entity => {
@@ -198,14 +219,26 @@ namespace QuanLyGiongChanNuoi.Infrastructure.Data // Đảm bảo namespace đú
                 entity.HasOne(d => d.CoSoThucAn).WithMany(p => p.GiayChungNhans).HasForeignKey(d => d.CoSoThucAnId).OnDelete(DeleteBehavior.ClientSetNull).HasConstraintName("FK__GiayChung__CoSoT__25518C17");
             });
 
-            modelBuilder.Entity<GiongCanBaoTon>(entity => {
-                entity.HasKey(e => e.Id).HasName("PK__GiongCan__3214EC27A4B1E94A");
+            modelBuilder.Entity<GiongCanBaoTon>(entity =>
+            {
                 entity.ToTable("GiongCanBaoTon");
+
                 entity.Property(e => e.Id).HasColumnName("ID");
+
+                // SỬA: Đổi e.GiongID (hoặc e.Giong) thành e.GiongId (cho khớp với Model)
                 entity.Property(e => e.GiongId).HasColumnName("GiongID");
+
                 entity.Property(e => e.Loai).HasMaxLength(50);
                 entity.Property(e => e.LyDo).HasMaxLength(200);
-                entity.HasOne(d => d.Giong).WithMany(p => p.GiongCanBaoTons).HasForeignKey(d => d.GiongId).OnDelete(DeleteBehavior.ClientSetNull).HasConstraintName("FK__GiongCanB__Giong__2645B050");
+                entity.Property(e => e.NgayBaoTon).HasColumnType("date");
+                entity.Property(e => e.TrangThai).HasColumnName("TrangThai");
+
+                // SỬA QUAN TRỌNG: Đổi d.Giong thành d.GiongVatNuoi
+                entity.HasOne(d => d.GiongVatNuoi)
+                    .WithMany(p => p.GiongCanBaoTons) // Đảm bảo trong model GiongVatNuoi có collection này, nếu lỗi xóa dòng này đi
+                    .HasForeignKey(d => d.GiongId) // Sửa thành GiongId
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK__GiongCanB__Giong__4E88ABD4"); // Giữ nguyên hoặc xóa dòng này cũng được
             });
 
             modelBuilder.Entity<GiongVatNuoi>(entity => {

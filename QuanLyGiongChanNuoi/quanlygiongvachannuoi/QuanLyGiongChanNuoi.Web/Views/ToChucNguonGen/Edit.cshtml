@@ -1,0 +1,64 @@
+﻿@model QuanLyGiongChanNuoi.Infrastructure.Models.ToChucNguonGen
+@{ ViewData["Title"] = "Cập nhật"; }
+
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header bg-info text-white">
+            <h5 class="mb-0">Cập nhật thông tin: @Model.HoatDong</h5>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit" class="row">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="HoatDong" /> <div class="col-md-6 mb-3">
+                    <label class="fw-bold">Tổ chức / Cá nhân</label>
+                    <select asp-for="ToChucCaNhanId" class="form-control" asp-items="ViewBag.ToChucCaNhanId"></select>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label class="fw-bold">Nguồn gen giống</label>
+                    <select asp-for="NguonGenId" class="form-control" asp-items="ViewBag.NguonGenId"></select>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label class="fw-bold">Khu vực</label>
+                    <input asp-for="KhuVuc" class="form-control" />
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label class="fw-bold">Ngày thực hiện</label>
+                    <input asp-for="NgayThuThap" class="form-control" type="date" />
+                </div>
+
+                <div class="col-12 d-flex justify-content-between mt-3">
+                    <a asp-action="Index" asp-route-loaiHoatDong="@Model.HoatDong" class="btn btn-secondary">Quay lại</a>
+                    <div>
+                        <button type="submit" class="btn btn-primary me-2">Lưu thay đổi</button>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal">Xóa bỏ</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="deleteModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title">Xác nhận xóa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                Bạn có chắc chắn muốn xóa bản ghi hoạt động <strong>@Model.HoatDong</strong> này không?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <form asp-action="Delete" method="post">
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <button type="submit" class="btn btn-danger">Xóa ngay</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

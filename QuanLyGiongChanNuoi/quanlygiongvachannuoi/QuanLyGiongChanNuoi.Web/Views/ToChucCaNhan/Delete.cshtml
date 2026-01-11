@@ -1,0 +1,73 @@
+﻿@model QuanLyGiongChanNuoi.Infrastructure.Models.ToChucCaNhan
+
+@{
+    ViewData["Title"] = "Xóa Tổ chức/Cá nhân";
+}
+
+<h2 class="text-danger">Xóa dữ liệu</h2>
+<h3>Bạn có chắc chắn muốn xóa Tổ chức/Cá nhân này không?</h3>
+<div class="alert alert-warning">
+    <i class="fas fa-exclamation-triangle"></i> Lưu ý: Hành động này không thể hoàn tác.
+</div>
+
+<div>
+    <h4>Thông tin chi tiết:</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            Tên đơn vị/Cá nhân
+        </dt>
+        <dd class="col-sm-9">
+            <strong>@Model.Ten</strong>
+        </dd>
+
+        <dt class="col-sm-3">
+            Loại hình
+        </dt>
+        <dd class="col-sm-9">
+            @if(Model.LoaiHinh == "ToChuc") { <span>Tổ chức/Doanh nghiệp</span> }
+            else { <span>Cá nhân/Hộ gia đình</span> }
+        </dd>
+
+        <dt class="col-sm-3">
+            Lĩnh vực hoạt động
+        </dt>
+        <dd class="col-sm-9">
+            @if(Model.LoaiHoatDong == "SanXuatGiong") { <span class="badge bg-info text-dark">Sản xuất con giống vật nuôi</span> }
+            else if(Model.LoaiHoatDong == "SanXuatTinhPhoi") { <span class="badge bg-warning text-dark">SX Tinh, phôi, ấu trùng</span> }
+            else if(Model.LoaiHoatDong == "SoHuuDucGiong") { <span class="badge bg-success">Sở hữu đực giống</span> }
+            else if(Model.LoaiHoatDong == "MuaBan") { <span class="badge bg-primary">Mua bán con giống</span> }
+            else { @Model.LoaiHoatDong }
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.DiaChi)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.DiaChi)
+        </dd>
+
+        <dt class="col-sm-3">
+            Số điện thoại
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.SoDienThoai)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+
+        <button type="submit" class="btn btn-danger">
+            <i class="fas fa-trash-alt"></i> Xác nhận Xóa
+        </button>
+        <a asp-action="Index" class="btn btn-secondary">Hủy bỏ</a>
+    </form>
+</div>

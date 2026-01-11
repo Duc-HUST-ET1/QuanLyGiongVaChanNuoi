@@ -1,0 +1,74 @@
+﻿@model IEnumerable<QuanLyGiongChanNuoi.Infrastructure.Models.ToChucCaNhan>
+
+    @{
+    ViewData["Title"] = "Quản lý Tổ chức & Cá nhân";
+    }
+
+    <div class="container-fluid mt-4">
+        <h2 class="mb-4">Danh sách Tổ chức - Cá nhân hoạt động</h2>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <form asp-action="Index" method="get" class="row g-3">
+                    <div class="col-md-4">
+                        <input type="text" name="searchString" class="form-control"
+                               placeholder="Nhập tên, SĐT, Email..." value="@ViewBag.CurrentFilter" />
+                    </div>
+                    <div class="col-md-4">
+                        <select name="searchLoaiHoatDong" class="form-select">
+                            <option value="">-- Tất cả hoạt động --</option>
+                            <option value="SanXuatGiong" selected="@(ViewBag.CurrentLoai == "SanXuatGiong")">Sản xuất con giống</option>
+                            <option value="SanXuatTinhPhoi" selected="@(ViewBag.CurrentLoai == "SanXuatTinhPhoi")">SX Tinh/Phôi/Ấp trứng</option>
+                            <option value="SoHuuDucGiong" selected="@(ViewBag.CurrentLoai == "SoHuuDucGiong")">Sở hữu đực giống</option>
+                            <option value="MuaBan" selected="@(ViewBag.CurrentLoai == "MuaBan")">Mua bán con giống</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+                        <a asp-action="Index" class="btn btn-secondary">Đặt lại</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <p>
+            <a asp-action="Create" class="btn btn-success">Thêm mới</a>
+        </p>
+
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Tên</th>
+                    <th>Loại hình</th>
+                    <th>Hoạt động chính</th>
+                    <th>Địa chỉ</th>
+                    <th>SĐT / Email</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model) {
+                <tr>
+                    <td>@item.Ten</td>
+                    <td>@item.LoaiHinh</td>
+                    <td>
+                        @if(item.LoaiHoatDong == "SanXuatGiong") { <span>SX Con giống</span> }
+                        else if(item.LoaiHoatDong == "SanXuatTinhPhoi") { <span>SX Tinh/Phôi</span> }
+                        else if(item.LoaiHoatDong == "SoHuuDucGiong") { <span>Sở hữu đực giống</span> }
+                        else if(item.LoaiHoatDong == "MuaBan") { <span>Mua bán</span> }
+                        else { @item.LoaiHoatDong }
+                    </td>
+                    <td>@item.DiaChi</td>
+                    <td>
+                        @item.SoDienThoai <br />
+                        <small class="text-muted">@item.Email</small>
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Sửa</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Xóa</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>

@@ -1,8 +1,186 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Trang chủ";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@if (!User.Identity.IsAuthenticated)
+{
+    // GIAO DIỆN CHO KHÁCH CHƯA ĐĂNG NHẬP
+<div class="text-center mt-5">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Coat_of_arms_of_Vietnam.svg/1200px-Coat_of_arms_of_Vietnam.svg.png"
+         style="height: 150px; margin-bottom: 20px;" alt="Logo" />
+    <h1 class="display-4 fw-bold text-uppercase text-primary">Hệ thống Quản lý Giống Chăn Nuôi</h1>
+    <p class="lead text-secondary">Cục Chăn Nuôi - Bộ Nông nghiệp và Phát triển Nông thôn</p>
+    <hr class="my-4 mx-auto" style="width: 50%;">
+    <p>Vui lòng đăng nhập để truy cập vào hệ thống quản trị dữ liệu quốc gia.</p>
+    <a class="btn btn-primary btn-lg px-5 rounded-pill shadow" asp-area="Identity" asp-page="/Account/Login">
+        <i class="fas fa-sign-in-alt me-2"></i> Đăng nhập hệ thống
+    </a>
 </div>
+}
+else
+{
+    // GIAO DIỆN DASHBOARD CHO NGƯỜI DÙNG ĐÃ ĐĂNG NHẬP
+<div class="container-fluid pt-3">
+
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+        <h1 class="h2 text-primary"><i class="fas fa-tachometer-alt me-2"></i> Tổng quan hệ thống</h1>
+        <div class="btn-toolbar mb-2 mb-md-0">
+            <div class="btn-group me-2">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Xuất báo cáo</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">In ấn</button>
+            </div>
+            <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                <i class="fas fa-calendar-alt"></i> Tuần này
+            </button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2 border-0 border-start border-5 border-primary">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Giống vật nuôi
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.CountGiong loài</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-paw fa-2x text-gray-300 text-primary opacity-50"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2 border-0 border-start border-5 border-success">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                Cơ sở Thức ăn
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.CountCoSo cơ sở</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-warehouse fa-2x text-gray-300 text-success opacity-50"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-warning shadow h-100 py-2 border-0 border-start border-5 border-warning">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                Đang bảo tồn
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.CountBaoTon giống</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-shield-alt fa-2x text-gray-300 text-warning opacity-50"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-danger shadow h-100 py-2 border-0 border-start border-5 border-danger">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
+                                Hóa chất cấm
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.CountCam loại</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-skull-crossbones fa-2x text-gray-300 text-danger opacity-50"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3 bg-white border-bottom-0">
+                        <h6 class="m-0 font-weight-bold text-primary">Truy cập nhanh</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="row text-center d-flex align-items-stretch">
+
+                            <div class="col-md-3 mb-3">
+                                <a asp-controller="GiongVatNuoi" asp-action="Create"
+                                   class="btn btn-outline-primary w-100 h-100 d-flex flex-column justify-content-center align-items-center py-4 shadow-sm">
+                                    <i class="fas fa-plus-circle fa-2x mb-3"></i>
+                                    <span class="fw-bold">Thêm Giống mới</span>
+                                </a>
+                            </div>
+
+                            <div class="col-md-3 mb-3">
+                                <a asp-controller="CoSoThucAn" asp-action="Create" asp-route-loaiHinh="Sản xuất"
+                                   class="btn btn-outline-success w-100 h-100 d-flex flex-column justify-content-center align-items-center py-4 shadow-sm">
+                                    <i class="fas fa-industry fa-2x mb-3"></i>
+                                    <span class="fw-bold">Thêm CS Sản xuất</span>
+                                </a>
+                            </div>
+
+                            <div class="col-md-3 mb-3">
+                                <a asp-controller="GiayChungNhan" asp-action="Index"
+                                   class="btn btn-outline-info w-100 h-100 d-flex flex-column justify-content-center align-items-center py-4 shadow-sm">
+                                    <i class="fas fa-search fa-2x mb-3"></i>
+                                    <span class="fw-bold">Tra cứu GCN</span>
+                                </a>
+                            </div>
+
+                            <div class="col-md-3 mb-3">
+                                <a asp-controller="NguoiDung" asp-action="Index"
+                                   class="btn btn-outline-dark w-100 h-100 d-flex flex-column justify-content-center align-items-center py-4 shadow-sm">
+                                    <i class="fas fa-users-cog fa-2x mb-3"></i>
+                                    <span class="fw-bold">Quản lý User</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3 bg-white">
+                    <h6 class="m-0 font-weight-bold text-secondary">Thông báo mới</h6>
+                </div>
+                <div class="card-body">
+                    <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h6 class="mb-1 text-danger">Bảo trì hệ thống</h6>
+                                <small>3 ngày trước</small>
+                            </div>
+                            <p class="mb-1 small">Hệ thống sẽ bảo trì vào 22h00 tối chủ nhật tuần này.</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h6 class="mb-1 text-success">Cập nhật dữ liệu</h6>
+                                <small>1 tuần trước</small>
+                            </div>
+                            <p class="mb-1 small">Đã cập nhật danh mục Hóa chất cấm mới nhất năm 2026.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+}

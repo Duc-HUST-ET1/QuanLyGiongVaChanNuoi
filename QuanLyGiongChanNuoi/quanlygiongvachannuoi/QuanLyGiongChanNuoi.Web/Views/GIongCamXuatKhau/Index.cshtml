@@ -1,0 +1,51 @@
+﻿@model IEnumerable<QuanLyGiongChanNuoi.Infrastructure.Models.GiongCanBaoTon>
+
+@{ ViewData["Title"] = "Giống cấm xuất khẩu"; }
+
+<div class="container-fluid mt-4">
+    <h2 class="text-danger"><i class="fas fa-ban"></i> Danh mục Giống Cấm xuất khẩu</h2>
+
+    <div class="card mb-3 mt-3">
+        <div class="card-body">
+            <form asp-action="Index" method="get" class="row g-2">
+                <div class="col-md-9">
+                    <input type="text" name="searchString" class="form-control" 
+                           placeholder="Nhập tên giống hoặc lý do cấm..." value="@ViewBag.CurrentFilter" />
+                </div>
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-primary w-100">Tìm kiếm</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <p><a asp-action="Create" class="btn btn-success">Thêm giống cấm mới</a></p>
+
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Tên Giống</th>
+                <th>Lý do cấm</th>
+                <th>Ngày ban hành</th>
+                <th>Trạng thái</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model) {
+                <tr>
+                    <td class="fw-bold">@item.GiongVatNuoi?.TenGiong</td>
+                    <td>@item.LyDo</td>
+                    <td>@item.NgayBaoTon?.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        @if(item.TrangThai == true) { <span class="badge bg-danger">Đang cấm</span> }
+                        else { <span class="badge bg-secondary">Hết hiệu lực</span> }
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Sửa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

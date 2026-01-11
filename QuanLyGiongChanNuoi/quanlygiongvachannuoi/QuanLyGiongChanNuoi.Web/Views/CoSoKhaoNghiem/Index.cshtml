@@ -1,0 +1,51 @@
+﻿@model IEnumerable<QuanLyGiongChanNuoi.Infrastructure.Models.CoSoVatNuoi>
+
+    @{ ViewData["Title"] = "Cơ sở Khảo nghiệm"; }
+
+    <div class="container-fluid mt-4">
+        <h2 class="text-primary"><i class="fas fa-flask"></i> Quản lý Cơ sở Khảo nghiệm dòng, giống</h2>
+
+        <div class="card mb-3 mt-3 shadow-sm">
+            <div class="card-body">
+                <form asp-action="Index" method="get" class="row g-2">
+                    <div class="col-md-9">
+                        <input type="text" name="searchString" class="form-control"
+                               placeholder="Nhập tên cơ sở hoặc địa chỉ..."
+                               value="@ViewBag.CurrentFilter" />
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-primary w-100">Tìm kiếm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <p>
+            <a asp-action="Create" class="btn btn-success"><i class="fas fa-plus"></i> Thêm Cơ sở Khảo nghiệm</a>
+        </p>
+
+        <table class="table table-bordered table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Tên Cơ sở</th>
+                    <th>Chủ sở hữu (Tổ chức/Cá nhân)</th>
+                    <th>Giống đang khảo nghiệm</th>
+                    <th>Địa chỉ</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model) {
+                <tr>
+                    <td class="fw-bold">@item.TenCoSo</td>
+                    <td>@item.ToChucCaNhan?.Ten</td>
+                    <td><span class="badge bg-info text-dark">@item.GiongVatNuoi?.TenGiong</span></td>
+                    <td>@item.DiaChi</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Sửa</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>

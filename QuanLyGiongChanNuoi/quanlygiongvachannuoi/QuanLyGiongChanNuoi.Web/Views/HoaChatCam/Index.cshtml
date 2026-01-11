@@ -1,0 +1,42 @@
+﻿@model IEnumerable<QuanLyGiongChanNuoi.Infrastructure.Models.HoaChatCam>
+    @{ ViewData["Title"] = "Hóa chất cấm"; }
+
+    <div class="container mt-4">
+        <h3 class="text-danger"><i class="fas fa-skull-crossbones"></i> Danh mục Hóa chất Cấm sử dụng</h3>
+
+        <div class="card my-3">
+            <div class="card-body">
+                <form asp-action="Index" method="get" class="row g-2">
+                    <div class="col-md-10">
+                        <input type="text" name="searchString" class="form-control"
+                               placeholder="Tìm tên hóa chất..." value="@ViewBag.CurrentFilter" />
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-danger w-100">
+                            <i class="fas fa-search"></i> Tìm kiếm
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <p><a asp-action="Create" class="btn btn-outline-danger">Thêm hóa chất cấm mới</a></p>
+
+        <table class="table table-striped table-hover border-danger">
+            <thead class="bg-danger text-white">
+                <tr>
+                    <th>Tên hóa chất</th>
+                    <th>Lý do cấm / Ghi chú</th>
+                    <th width="150">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model) {
+                <tr>
+                    <td class="fw-bold text-danger">@item.TenHoaChat</td>
+                    <td>@item.LyDoCam</td>
+                    <td><a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Sửa</a></td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>

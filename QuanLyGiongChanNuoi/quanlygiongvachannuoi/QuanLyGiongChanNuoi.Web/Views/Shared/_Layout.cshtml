@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/QuanLyGiongChanNuoi.Web.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <style>
         /* CSS tuỳ chỉnh cho giao diện Admin */
@@ -122,12 +123,6 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" asp-controller="GiongVatNuoi" asp-action="Index">
-                                <i class="fa-solid fa-paw"></i> Giống Vật Nuôi
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
                             <a class="nav-link" asp-controller="Menu" asp-action="Index">
                                 <i class="fa-solid fa-bars"></i> Quản lý Menu
                             </a>
@@ -136,7 +131,7 @@
                         <li class="nav-item">
                             <a class="nav-link collapsed" href="#submenuSystem" data-bs-toggle="collapse">
                                 <i class="fa-solid fa-gear"></i>
-                                Quản Trị Hệ Thống
+                                Hệ Thống
                                 <i class="fa-solid fa-chevron-down ms-auto" style="font-size: 0.7em;"></i>
                             </a>
                             <div class="collapse submenu" id="submenuSystem">
@@ -151,7 +146,7 @@
                         <li class="nav-item">
                             <a class="nav-link collapsed" href="#submenuAdmin" data-bs-toggle="collapse">
                                 <i class="fa-solid fa-building-columns"></i>
-                                Quản lý các cấp
+                                Đơn vị hành chính
                                 <i class="fa-solid fa-chevron-down ms-auto" style="font-size: 0.7em;"></i>
                             </a>
                             <div class="collapse submenu" id="submenuAdmin">
@@ -165,7 +160,7 @@
                         <li class="nav-item">
                             <a class="nav-link collapsed" href="#submenuHistory" data-bs-toggle="collapse">
                                 <i class="fa-solid fa-clock-rotate-left"></i>
-                                Quản lý Lịch sử
+                                Lịch sử
                                 <i class="fa-solid fa-chevron-down ms-auto" style="font-size: 0.7em;"></i>
                             </a>
                             <div class="collapse submenu" id="submenuHistory">
@@ -175,6 +170,130 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" asp-controller="LichSuTacDong" asp-action="Index">Lịch sử tác động</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapseQuanTriGiong" role="button" aria-expanded="false">
+                                <span>
+                                    <i class="fas fa-paw me-2"></i>Giống
+                                </span>
+                                <i class="fas fa-chevron-down" style="font-size: 0.8rem;"></i>
+                            </a>
+
+                            <div class="collapse" id="collapseQuanTriGiong">
+                                <ul class="nav flex-column ms-4">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary py-1" asp-controller="GiongVatNuoi" asp-action="Index">
+                                            <i class="fas fa-list-ul me-2"></i> DS Giống vật nuôi
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary py-1" asp-controller="ToChucCaNhan" asp-action="Index">
+                                            <i class="fas fa-users me-2"></i> Tổ chức / Cá nhân
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary py-1" asp-controller="CoSoKhaoNghiem" asp-action="Index">
+                                            <i class="fas fa-flask me-2"></i> Cơ sở Khảo nghiệm
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="GiongCanBaoTon" asp-action="Index">
+                                            <i class="fas fa-shield-alt me-2 text-success"></i> Giống cần Bảo tồn
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary py-1" asp-controller="GiongCamXuatKhau" asp-action="Index">
+                                            <i class="fas fa-ban me-2 text-danger"></i> Giống Cấm xuất khẩu
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapseNguonGen" role="button" aria-expanded="false">
+                                <span>
+                                    <i class="fas fa-dna me-2"></i>Nguồn Gen
+                                </span>
+                                <i class="fas fa-chevron-down" style="font-size: 0.8rem;"></i>
+                            </a>
+
+                            <div class="collapse" id="collapseNguonGen">
+                                <ul class="nav flex-column ms-4">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary py-1" asp-controller="ToChucNguonGen" asp-action="Index" asp-route-loaiHoatDong="Thu thập">
+                                            Thu thập nguồn gen
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary py-1" asp-controller="ToChucNguonGen" asp-action="Index" asp-route-loaiHoatDong="Bảo tồn">
+                                            Bảo tồn nguồn gen
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary py-1" asp-controller="ToChucNguonGen" asp-action="Index" asp-route-loaiHoatDong="Khai thác">
+                                            Khai thác & Phát triển
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapseThucAn" role="button" aria-expanded="false">
+                                <span>
+                                    <i class="fas fa-warehouse me-2"></i>Cơ sở Thức ăn
+                                </span>
+                                <i class="fas fa-chevron-down" style="font-size: 0.8rem;"></i>
+                            </a>
+
+                            <div class="collapse" id="collapseThucAn">
+                                <ul class="nav flex-column ms-4">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary py-1" asp-controller="CoSoThucAn" asp-action="Index" asp-route-loaiHinh="Sản xuất">
+                                            Cơ sở Sản xuất
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary py-1" asp-controller="CoSoThucAn" asp-action="Index" asp-route-loaiHinh="Mua bán">
+                                            Cơ sở Mua bán
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary py-1" asp-controller="CoSoThucAn" asp-action="Index" asp-route-loaiHinh="Khảo nghiệm">
+                                            Cơ sở Khảo nghiệm
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapseDanhMucTA" role="button" aria-expanded="false">
+                                <span>
+                                    <i class="fas fa-list-alt me-2"></i>Thức ăn
+                                </span>
+                                <i class="fas fa-chevron-down" style="font-size: 0.8rem;"></i>
+                            </a>
+
+                            <div class="collapse" id="collapseDanhMucTA">
+                                <ul class="nav flex-column ms-4">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary py-1" asp-controller="HoaChatCam" asp-action="Index">
+                                            <i class="fas fa-skull me-1 text-danger"></i> Hóa chất cấm
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary py-1" asp-controller="NguyenLieuChoPhep" asp-action="Index">
+                                            <i class="fas fa-check me-1 text-success"></i> Nguyên liệu cho phép
+                                        </a>
                                     </li>
                                 </ul>
                             </div>

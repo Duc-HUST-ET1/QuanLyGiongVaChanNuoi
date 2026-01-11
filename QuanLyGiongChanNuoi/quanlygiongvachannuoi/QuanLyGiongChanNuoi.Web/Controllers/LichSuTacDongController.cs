@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 using QuanLyGiongChanNuoi.Infrastructure.Models; // Chứa các Model
 using QuanLyGiongChanNuoi.Infrastructure;       // Chứa Context (QuanLyGiongVaThucAnChanNuoiAContext)
 using QuanLyGiongChanNuoi.Infrastructure.Data;
 
 namespace QuanLyGiongChanNuoi.Web.Controllers
 {
+    [Authorize(Roles = "Quản trị viên")]
     public class LichSuTacDongController : Controller
     {
         private readonly QuanLyGiongVaThucAnChanNuoiContext _context;

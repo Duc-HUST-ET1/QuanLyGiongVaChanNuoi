@@ -1,32 +1,51 @@
-using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using QuanLyGiongChanNuoi.Web.Models;
-using QuanLyGiongChanNuoi.Infrastructure.Data;
+﻿using Microsoft.AspNetCore.Mvc;
+using QuanLyGiongChanNuoi.Infrastructure.Data; // Thêm dòng này
+using QuanLyGiongChanNuoi.Infrastructure.Models;
+using System.Linq; // Thêm dòng này
 
-namespace QuanLyGiongChanNuoi.Web.Controllers;
-
-public class HomeController : Controller
+namespace QuanLyGiongChanNuoi.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    public class HomeController : Controller
     {
-        _logger = logger;
-    }
+        private readonly ILogger<HomeController> _logger;
+        private readonly QuanLyGiongVaThucAnChanNuoiContext _context; // Khai báo Context
 
-    public IActionResult Index()
-    {
-        return View();
-    }
+        // Tiêm Context vào Constructor
+        public HomeController(ILogger<HomeController> logger, QuanLyGiongVaThucAnChanNuoiContext context)
+        {
+            _logger = logger;
+            _context = context;
+        }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+        public IActionResult Index()
+        {
+            // Nếu chưa đăng nhập thì hiện trang giới thiệu tĩnh
+            if (!User.Identity.IsAuthenticated)
+            {
+                return View();
+            }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            // Nếu đã đăng nhập, lấy số liệu thống kê
+            // 1. Tổng số giống vật nuôi
+            ViewBag.CountGiong = _context.GiongVatNuois.Count();
+
+            // 2. Tổng số Cơ sở thức ăn
+            ViewBag.CountCoSo = _context.CoSoThucAns.Count();
+
+            // 3. Số giống đang cần bảo tồn
+            ViewBag.CountBaoTon = _context.GiongCanBaoTons.Count(x => x.Loai == "Bảo tồn" && x.TrangThai == true);
+
+            // 4. Số hóa chất cấm
+            ViewBag.CountCam = _context.HoaChatCams.Count();
+
+            return View();
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        // ... các hàm Error giữ nguyên
     }
 }

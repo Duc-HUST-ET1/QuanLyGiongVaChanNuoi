@@ -1,0 +1,30 @@
+﻿@model QuanLyGiongChanNuoi.Infrastructure.Models.GiongCanBaoTon
+@{ ViewData["Title"] = "Thêm giống cấm xuất khẩu"; }
+
+<h4>Thêm mới vào danh sách Cấm xuất khẩu</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label class="fw-bold">Chọn Giống vật nuôi (*)</label>
+                <select asp-for="GiongId" class="form-control" asp-items="ViewBag.GiongId"></select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="fw-bold">Lý do cấm xuất khẩu</label>
+                <textarea asp-for="LyDo" class="form-control" rows="3" placeholder="Ví dụ: Bảo vệ nguồn gen quốc gia..."></textarea>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="fw-bold">Ngày ban hành</label>
+                <input asp-for="NgayBaoTon" class="form-control" type="date" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Lưu dữ liệu</button>
+            <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+        </form>
+    </div>
+</div>

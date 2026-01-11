@@ -1,0 +1,21 @@
+﻿@model QuanLyGiongChanNuoi.Infrastructure.Models.HoaChatCam
+@{ ViewData["Title"] = "Thêm hóa chất cấm"; }
+<h4>Thêm mới Hóa chất cấm</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div class="mb-3">
+                <label class="fw-bold">Tên hóa chất (*)</label>
+                <input asp-for="TenHoaChat" class="form-control" />
+                <span asp-validation-for="TenHoaChat" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="fw-bold">Lý do cấm</label>
+                <textarea asp-for="LyDoCam" class="form-control" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Lưu lại</button>
+            <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+        </form>
+    </div>
+</div>

@@ -81,25 +81,33 @@
                                 </form>
                             </td>
 
-                            <td class="text-center">
-                                <div class="d-flex justify-content-center gap-2">
+                            <td class="text-center align-middle">
+                                <div class="d-flex justify-content-center align-items-center gap-2">
+
                                     <a asp-controller="PhanQuyen" asp-action="PhanQuyenChoNhom" asp-route-nhomId="@item.Id"
-                                       class="btn btn-info btn-sm text-white shadow-sm" title="Phân quyền">
-                                        <i class="bi bi-shield-lock-fill"></i>
+                                       class="btn btn-info btn-sm text-white shadow-sm d-flex align-items-center justify-content-center"
+                                       style="width: 35px; height: 35px; padding: 0;"
+                                       data-bs-toggle="tooltip" title="Phân quyền quản trị">
+                                        <i class="bi bi-shield-lock-fill" style="font-size: 1.1rem;"></i>
                                     </a>
 
                                     <a asp-action="Edit" asp-route-id="@item.Id"
-                                       class="btn btn-warning btn-sm text-white shadow-sm" title="Sửa">
-                                        <i class="bi bi-pencil-square"></i>
+                                       class="btn btn-warning btn-sm text-white shadow-sm d-flex align-items-center justify-content-center"
+                                       style="width: 35px; height: 35px; padding: 0;"
+                                       data-bs-toggle="tooltip" title="Chỉnh sửa thông tin">
+                                        <i class="bi bi-pencil-square" style="font-size: 1.1rem;"></i>
                                     </a>
 
-                                    <form asp-action="Delete" asp-route-id="@item.Id" method="post"
-                                          style="margin: 0;"
-                                          onsubmit="return confirm('CẢNH BÁO: Xóa nhóm sẽ xóa cả phân quyền!\nBạn có chắc muốn xóa @item.Ten không?');">
-                                        <button type="submit" class="btn btn-danger btn-sm shadow-sm" title="Xóa">
-                                            <i class="bi bi-trash"></i>
+                                    <form asp-action="Delete" asp-route-id="@item.Id" method="post" style="margin: 0;">
+                                        <button type="submit"
+                                                class="btn btn-danger btn-sm shadow-sm d-flex align-items-center justify-content-center"
+                                                style="width: 35px; height: 35px; padding: 0;"
+                                                data-bs-toggle="tooltip" title="Xóa bỏ nhóm này"
+                                                onclick="return confirm('CẢNH BÁO: Bạn có chắc chắn muốn xóa nhóm @item.Ten không?');">
+                                            <i class="bi bi-trash3-fill" style="font-size: 1.1rem;"></i>
                                         </button>
                                     </form>
+
                                 </div>
                             </td>
                         </tr>

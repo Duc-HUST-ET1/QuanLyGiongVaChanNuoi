@@ -1,0 +1,88 @@
+﻿@model QuanLyGiongChanNuoi.Infrastructure.Models.CoSoVatNuoi
+
+@{
+    ViewData["Title"] = "Cập nhật thông tin";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h5 class="mb-0"><i class="fas fa-edit"></i> Cập nhật Cơ sở Khảo nghiệm</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <form asp-action="Edit" id="editForm">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="LoaiCoSo" />
+
+                        <div class="mb-3">
+                            <label asp-for="TenCoSo" class="form-label fw-bold">Tên Cơ sở (*)</label>
+                            <input asp-for="TenCoSo" class="form-control" required />
+                            <span asp-validation-for="TenCoSo" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Chủ sở hữu</label>
+                            <select asp-for="ToChucCaNhanID" class="form-control" asp-items="ViewBag.ToChucCaNhanID"></select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Giống đang khảo nghiệm</label>
+                            <select asp-for="GiongVatNuoiID" class="form-control" asp-items="ViewBag.GiongVatNuoiID"></select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="DiaChi" class="form-label fw-bold">Địa chỉ</label>
+                            <input asp-for="DiaChi" class="form-control" />
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center mt-4">
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left"></i> Quay lại
+                            </a>
+
+                            <div>
+                                <button type="submit" class="btn btn-primary me-2">
+                                    <i class="fas fa-save"></i> Lưu thay đổi
+                                </button>
+
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                                    <i class="fas fa-trash-alt"></i> Xóa cơ sở này
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title">Xác nhận xóa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Bạn có chắc chắn muốn xóa cơ sở: <strong>@Model.TenCoSo</strong> không?<br />
+                Hành động này không thể hoàn tác.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy bỏ</button>
+
+                <form asp-action="Delete" method="post">
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <button type="submit" class="btn btn-danger">Xóa ngay</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
