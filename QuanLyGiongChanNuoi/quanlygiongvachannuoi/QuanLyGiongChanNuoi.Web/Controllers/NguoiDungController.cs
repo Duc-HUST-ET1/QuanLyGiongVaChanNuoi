@@ -94,9 +94,22 @@ namespace QuanLyGiongChanNuoi.Web.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, NguoiDung nguoiDung, string NewPassword)
+        public async Task<IActionResult> Edit(int id, NguoiDung nguoiDung, string? NewPassword)
         {
             if (id != nguoiDung.Id) return NotFound();
+
+            // --- KHU VỰC SỬA LỖI ---
+            // 1. Bỏ qua lỗi Mật khẩu (vì edit không bắt buộc nhập pass)
+            ModelState.Remove("MatKhau");
+
+            // 2. Bỏ qua lỗi Tên đăng nhập (VÌ NÓ BỊ DISABLED TRÊN FORM NÊN KHÔNG GỬI VỀ)
+            // Bạn kiểm tra kỹ xem trong Model tên biến là "TenDangNhap" hay "UserName" nhé
+            ModelState.Remove("TenDangNhap");
+
+            // 3. Bỏ qua các trường tự sinh khác nếu có (Ngày tạo, Người tạo...)
+            ModelState.Remove("NgayTao");
+            ModelState.Remove("NguoiTao");
+            // -----------------------
 
             if (ModelState.IsValid)
             {
@@ -104,13 +117,16 @@ namespace QuanLyGiongChanNuoi.Web.Controllers
                 {
                     var userToUpdate = await _context.NguoiDungs.FindAsync(id);
 
-                    // Cập nhật các thông tin chung
+                    // Cập nhật các thông tin
                     userToUpdate.HoTen = nguoiDung.HoTen;
                     userToUpdate.Email = nguoiDung.Email;
+
+                    // Cập nhật Chức vụ
                     userToUpdate.ChucVuId = nguoiDung.ChucVuId;
+
                     userToUpdate.DonViHcId = nguoiDung.DonViHcId;
 
-                    // Nếu người dùng nhập mật khẩu mới thì mới đổi, không thì giữ nguyên
+                    // Chỉ đổi mật khẩu khi có nhập mới
                     if (!string.IsNullOrEmpty(NewPassword))
                     {
                         userToUpdate.MatKhau = GetMD5(NewPassword);
@@ -118,15 +134,25 @@ namespace QuanLyGiongChanNuoi.Web.Controllers
 
                     _context.Update(userToUpdate);
                     await _context.SaveChangesAsync();
-                    TempData["SuccessMessage"] = "Cập nhật thông tin thành công!";
+
+                    TempData["SuccessMessage"] = "Cập nhật thành công!";
+                    return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!_context.NguoiDungs.Any(e => e.Id == id)) return NotFound();
                     else throw;
                 }
-                return RedirectToAction(nameof(Index));
             }
+
+            // --- DEBUG LỖI (NẾU VẪN KHÔNG ĐƯỢC THÌ LÀM BƯỚC NAY) ---
+            // Đặt breakpoint tại đây hoặc in lỗi ra để xem nó đang kêu cái gì
+            var errors = ModelState.Values.SelectMany(v => v.Errors);
+            foreach (var err in errors)
+            {
+                Console.WriteLine(err.ErrorMessage); // Xem trong cửa sổ Output
+            }
+
             ViewData["ChucVuId"] = new SelectList(_context.ChucVus, "Id", "TenChucVu", nguoiDung.ChucVuId);
             ViewData["DonViHcId"] = new SelectList(_context.DonViHcs, "Id", "Ten", nguoiDung.DonViHcId);
             return View(nguoiDung);

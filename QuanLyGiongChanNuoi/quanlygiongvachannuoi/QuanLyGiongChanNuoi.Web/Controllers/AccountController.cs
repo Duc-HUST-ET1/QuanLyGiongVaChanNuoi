@@ -31,41 +31,51 @@ namespace QuanLyGiongChanNuoi.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(string tenDn, string matKhau)
         {
-            if (string.IsNullOrEmpty(tenDn) || string.IsNullOrEmpty(matKhau))
-            {
-                ViewBag.Error = "Vui lòng nhập đầy đủ thông tin!";
-                return View();
-            }
-
-            // 1. Tìm người dùng trong DB
+            // 1. Tìm user theo TÊN ĐĂNG NHẬP trước (Chưa check pass vội)
             var user = await _context.NguoiDungs
-                .Include(u => u.ChucVu)
-                .FirstOrDefaultAsync(u => u.TenDn == tenDn && u.MatKhau == matKhau);
+                                     .Include(u => u.ChucVu)
+                                     .FirstOrDefaultAsync(u => u.TenDn == tenDn);
 
+            // TRƯỜNG HỢP 1: Không tìm thấy tên đăng nhập
             if (user == null)
             {
-                ViewBag.Error = "Sai tên đăng nhập hoặc mật khẩu!";
+                ViewBag.Error = $"Không tìm thấy tài khoản có tên: {tenDn}";
                 return View();
             }
 
+            // 2. Tính toán mã hóa mật khẩu nhập vào
+            string passNhapVao = matKhau;
+            string passMaHoa = GetMD5(matKhau); // Code tính ra cái này
+
+            // 3. So sánh (Debug)
+            // Pass trong DB: user.MatKhau
+            // Pass tính toán: passMaHoa
+
+            if (user.MatKhau != passMaHoa)
+            {
+                // IN LỖI CHI TIẾT RA MÀN HÌNH ĐỂ SOI
+                ViewBag.Error = "SAI MẬT KHẨU! " +
+                                $"DB đang lưu: '{user.MatKhau}' | " +
+                                $"Code tính ra: '{passMaHoa}'";
+                return View();
+            }
+
+            // TRƯỜNG HỢP 3: Bị khóa
             if (user.TrangThai == false)
             {
-                ViewBag.Error = "Tài khoản này đang bị khóa!";
+                ViewBag.Error = "Tài khoản đang bị khóa (TrangThai = false)";
                 return View();
             }
 
-            // 2. Cấu hình Claims (Thông tin lưu vào Cookie)
             var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, user.TenDn),
-                new Claim("FullName", user.HoTen ?? "Người dùng"),
-                new Claim("UserId", user.Id.ToString()),
-            };
+    {
+        new Claim(ClaimTypes.Name, user.TenDn),
+        new Claim("FullName", user.HoTen ?? "User"),
+        new Claim("UserId", user.Id.ToString())
+    };
 
-            // Phân quyền (Role)
             if (user.ChucVu != null)
             {
-                // Lưu ý: Đảm bảo user.ChucVu.TenChucVu là tên thuộc tính đúng trong Model ChucVu của bạn
                 claims.Add(new Claim(ClaimTypes.Role, user.ChucVu.TenChucVu));
             }
             else
@@ -73,8 +83,14 @@ namespace QuanLyGiongChanNuoi.Web.Controllers
                 claims.Add(new Claim(ClaimTypes.Role, "NhanVien"));
             }
 
+            // 1. Tạo Identity
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+            // 2. Tạo Principal (BẠN ĐANG THIẾU DÒNG NÀY NÊN NÓ BÁO LỖI)
             var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+
+            // 3. Thực hiện đăng nhập
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal);
 
             // 3. Ghi Cookie (Đăng nhập thành công)
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal);
@@ -181,6 +197,17 @@ namespace QuanLyGiongChanNuoi.Web.Controllers
         public IActionResult AccessDenied()
         {
             return View();
+        }
+        private string GetMD5(string str)
+        {
+            System.Security.Cryptography.MD5CryptoServiceProvider md5 = new System.Security.Cryptography.MD5CryptoServiceProvider();
+            byte[] bHash = md5.ComputeHash(System.Text.Encoding.UTF8.GetBytes(str));
+            System.Text.StringBuilder sbHash = new System.Text.StringBuilder();
+            foreach (byte b in bHash)
+            {
+                sbHash.Append(String.Format("{0:x2}", b));
+            }
+            return sbHash.ToString();
         }
     }
 }

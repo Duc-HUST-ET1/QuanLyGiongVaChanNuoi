@@ -18,7 +18,7 @@
                     <div class="col-md-6">
                         <div class="mb-3">
                             <label class="form-label text-muted">Tên đăng nhập (Không thể sửa)</label>
-                            <input asp-for="TenDn" class="form-control bg-light" disabled />
+                            <input asp-for="TenDn" class="form-control bg-light" readonly />
                         </div>
 
                         <div class="mb-3">
@@ -38,9 +38,12 @@
                             <label class="form-label fw-bold">Email</label>
                             <input asp-for="Email" class="form-control" />
                         </div>
-                        <div class="mb-3">
-                            <label class="form-label fw-bold">Chức vụ</label>
-                            <select asp-for="ChucVuId" class="form-select" asp-items="ViewBag.ChucVuId"></select>
+                        <div class="form-group mb-3">
+                            <label class="fw-bold">Chức vụ</label>
+                            <select asp-for="ChucVuId" class="form-control" asp-items="ViewBag.ChucVuId">
+                                <option value="">-- Chọn chức vụ --</option>
+                            </select>
+                            <span asp-validation-for="ChucVuId" class="text-danger"></span>
                         </div>
                         <div class="mb-3">
                             <label class="form-label fw-bold">Đơn vị hành chính</label>
