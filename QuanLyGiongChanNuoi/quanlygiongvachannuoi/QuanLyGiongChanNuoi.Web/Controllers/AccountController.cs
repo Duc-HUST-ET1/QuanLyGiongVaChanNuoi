@@ -54,9 +54,7 @@ namespace QuanLyGiongChanNuoi.Web.Controllers
             if (user.MatKhau != passMaHoa)
             {
                 // IN LỖI CHI TIẾT RA MÀN HÌNH ĐỂ SOI
-                ViewBag.Error = "SAI MẬT KHẨU! " +
-                                $"DB đang lưu: '{user.MatKhau}' | " +
-                                $"Code tính ra: '{passMaHoa}'";
+                ViewBag.Error = "SAI MẬT KHẨU! " ;
                 return View();
             }
 

@@ -3,16 +3,60 @@
   "WorkspaceRootPath": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\PhanQuyenController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\PhanQuyenController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcXaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcXaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcHuyenController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcHuyenController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\DonViHc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\DonViHc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Data\\QuanLyGiongVaThucAnChanNuoiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Data\\QuanLyGiongVaThucAnChanNuoiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Services\\QuanLyGiongChanNuoi.Services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Services\\QuanLyGiongChanNuoi.Services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Interfaces\\IRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Interfaces\\IRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Interfaces\\IGiongVatNuoiRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Interfaces\\IGiongVatNuoiRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\LichSuTruyCap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\LichSuTruyCap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NguoiDungController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NguoiDungController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\AccessDenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\AccessDenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -49,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTruyCapController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTruyCapController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\AccessDenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\AccessDenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\HoaChatCam\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -187,10 +227,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiongCanBaoTon\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Data\\QuanLyGiongVaThucAnChanNuoiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Data\\QuanLyGiongVaThucAnChanNuoiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiongCanBaoTon\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiongCanBaoTon\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -263,14 +299,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\NewFile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\NewFile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcHuyenController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcHuyenController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\QuanLyQuyen\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\QuanLyQuyen\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -315,10 +343,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\ViewComponents\\MenuViewComponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\PhanQuyenController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\PhanQuyenController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NhomController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NhomController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -329,10 +353,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\GiongVatNuoiController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\GiongVatNuoiController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcXaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcXaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Repositories\\GiongVatNuoiRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -387,10 +407,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\LichSuTruyCap\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\LichSuTruyCap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\LichSuTruyCap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Nhom\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Nhom\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -418,7 +434,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -438,159 +454,164 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\Login.cshtml",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAACUAAAAAAAAAAAAcwDUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-11T17:46:59.31Z",
+              "DocumentIndex": 0,
+              "Title": "PhanQuyenController.cs",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\PhanQuyenController.cs",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\PhanQuyenController.cs",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\PhanQuyenController.cs",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\PhanQuyenController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T01:44:58.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NguoiDungController.cs",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NguoiDungController.cs",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NguoiDungController.cs",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NguoiDungController.cs",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NguoiDungController.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAAAACoAAAAlAAAAAAAAAA==",
+              "Title": "DonViHcXaController.cs",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcXaController.cs",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcXaController.cs",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcXaController.cs",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcXaController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAQwJ4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T04:25:56.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T01:43:08.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "DonViHcHuyenController.cs",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcHuyenController.cs",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcHuyenController.cs",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcHuyenController.cs",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcHuyenController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T01:42:08.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuanLyGiongChanNuoi.Services.csproj",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Services\\QuanLyGiongChanNuoi.Services.csproj",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Services\\QuanLyGiongChanNuoi.Services.csproj",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Services\\QuanLyGiongChanNuoi.Services.csproj",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Services\\QuanLyGiongChanNuoi.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-12T16:48:54.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Interfaces\\IRepository.cs",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:44:49.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuanLyGiongVaThucAnChanNuoiContext.cs",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Data\\QuanLyGiongVaThucAnChanNuoiContext.cs",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Data\\QuanLyGiongVaThucAnChanNuoiContext.cs",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Data\\QuanLyGiongVaThucAnChanNuoiContext.cs",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Data\\QuanLyGiongVaThucAnChanNuoiContext.cs",
+              "ViewState": "AgIAAMMBAAAAAAAAAAAAAPEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T04:10:57.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DonViHc.cs",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\DonViHc.cs",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\DonViHc.cs",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\DonViHc.cs",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\DonViHc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:36:04.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGiongVatNuoiRepository.cs",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Interfaces\\IGiongVatNuoiRepository.cs",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Interfaces\\IGiongVatNuoiRepository.cs",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Interfaces\\IGiongVatNuoiRepository.cs",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Interfaces\\IGiongVatNuoiRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:44:46.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Class1.cs",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Class1.cs",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:44:41.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LichSuTruyCap.cs",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\LichSuTruyCap.cs",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\LichSuTruyCap.cs",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\LichSuTruyCap.cs",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\LichSuTruyCap.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T04:19:32.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AccountController.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\AccountController.cs",
               "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\AccountController.cs",
               "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAkwFwAAABuAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwDIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:50:51.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Index.cshtml",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Index.cshtml",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Index.cshtml",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-11T17:16:03.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-11T16:14:21.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Edit.cshtml",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Edit.cshtml",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Edit.cshtml",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-31T06:14:46.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T01:43:38.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAG4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-07T16:20:50.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Nhom\\Index.cshtml",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Nhom\\Index.cshtml",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Nhom\\Index.cshtml",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Nhom\\Index.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAG8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-09T03:06:25.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Create.cshtml",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Create.cshtml",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Create.cshtml",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-31T06:14:30.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:50:51.692Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "LichSuTacDongController.cs",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTacDongController.cs",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTacDongController.cs",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTacDongController.cs",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTacDongController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwAIAAAApAAAAAAAAAA==",
+              "Title": "NguoiDungController.cs",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NguoiDungController.cs",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NguoiDungController.cs",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NguoiDungController.cs",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NguoiDungController.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAAACoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T17:09:56.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LichSuTruyCapController.cs",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTruyCapController.cs",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTruyCapController.cs",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTruyCapController.cs",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTruyCapController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T04:25:21.326Z"
+              "WhenOpened": "2025-12-31T04:25:56.801Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T17:46:59.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Account\\AccessDenied.cshtml",
@@ -602,7 +623,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T16:14:21.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Index.cshtml",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Index.cshtml",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Index.cshtml",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T17:16:03.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Edit.cshtml",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Edit.cshtml",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-31T06:14:46.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T01:43:38.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAG4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T16:20:50.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Nhom\\Index.cshtml",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Nhom\\Index.cshtml",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Nhom\\Index.cshtml",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Nhom\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAG8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-09T03:06:25.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Create.cshtml",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Create.cshtml",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Create.cshtml",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguoiDung\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-31T06:14:30.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LichSuTacDongController.cs",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTacDongController.cs",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTacDongController.cs",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTacDongController.cs",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTacDongController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:09:56.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LichSuTruyCapController.cs",
+              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTruyCapController.cs",
+              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTruyCapController.cs",
+              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTruyCapController.cs",
+              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\LichSuTruyCapController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T04:25:21.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\HoaChatCam\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\HoaChatCam\\Index.cshtml",
@@ -614,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguyenLieuChoPhep\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguyenLieuChoPhep\\Index.cshtml",
@@ -626,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 25,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\HoaChatCam\\Edit.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\HoaChatCam\\Edit.cshtml",
@@ -638,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguyenLieuChoPhep\\Edit.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguyenLieuChoPhep\\Edit.cshtml",
@@ -650,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "NguyenLieuChoPhep.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\NguyenLieuChoPhep.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\NguyenLieuChoPhep.cs",
@@ -662,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 28,
               "Title": "HoaChatCam.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\HoaChatCam.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\HoaChatCam.cs",
@@ -674,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 29,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguyenLieuChoPhep\\Create.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\NguyenLieuChoPhep\\Create.cshtml",
@@ -686,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\HoaChatCam\\Create.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\HoaChatCam\\Create.cshtml",
@@ -698,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 31,
               "Title": "NguyenLieuChoPhepController.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NguyenLieuChoPhepController.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NguyenLieuChoPhepController.cs",
@@ -710,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 32,
               "Title": "HoaChatCamController.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\HoaChatCamController.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\HoaChatCamController.cs",
@@ -722,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiayChungNhan\\Edit.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiayChungNhan\\Edit.cshtml",
@@ -734,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiayChungNhan\\Create.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiayChungNhan\\Create.cshtml",
@@ -746,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiayChungNhan\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiayChungNhan\\Index.cshtml",
@@ -758,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
               "Title": "CoSoNguyenLieuChoPhep.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\CoSoNguyenLieuChoPhep.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\CoSoNguyenLieuChoPhep.cs",
@@ -770,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\CoSoThucAn\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\CoSoThucAn\\Index.cshtml",
@@ -782,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 38,
               "Title": "GiayChungNhanController.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\GiayChungNhanController.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\GiayChungNhanController.cs",
@@ -794,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 42,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\CoSoThucAn\\Edit.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\CoSoThucAn\\Edit.cshtml",
@@ -806,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 43,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\CoSoThucAn\\Create.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\CoSoThucAn\\Create.cshtml",
@@ -818,7 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 41,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Shared\\_Layout.cshtml.css",
@@ -830,7 +959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 40,
               "Title": "CoSoThucAn.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\CoSoThucAn.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\CoSoThucAn.cs",
@@ -842,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 39,
               "Title": "GiayChungNhan.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\GiayChungNhan.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\GiayChungNhan.cs",
@@ -854,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 44,
               "Title": "CoSoThucAnController.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\CoSoThucAnController.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\CoSoThucAnController.cs",
@@ -866,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 45,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\ToChucNguonGen\\Edit.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\ToChucNguonGen\\Edit.cshtml",
@@ -878,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 46,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\ToChucNguonGen\\Create.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\ToChucNguonGen\\Create.cshtml",
@@ -890,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 47,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\ToChucNguonGen\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\ToChucNguonGen\\Index.cshtml",
@@ -902,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 48,
               "Title": "ToChucNguonGenController.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\ToChucNguonGenController.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\ToChucNguonGenController.cs",
@@ -914,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 49,
               "Title": "ToChucNguonGen.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\ToChucNguonGen.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\ToChucNguonGen.cs",
@@ -926,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 50,
               "Title": "NguonGen.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\NguonGen.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\NguonGen.cs",
@@ -938,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 51,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GIongCamXuatKhau\\Edit.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GIongCamXuatKhau\\Edit.cshtml",
@@ -950,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 52,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GIongCamXuatKhau\\Create.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GIongCamXuatKhau\\Create.cshtml",
@@ -962,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 53,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GIongCamXuatKhau\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GIongCamXuatKhau\\Index.cshtml",
@@ -974,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 54,
               "Title": "GiongCamXuatKhauController.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\GiongCamXuatKhauController.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\GiongCamXuatKhauController.cs",
@@ -986,7 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 55,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiongCanBaoTon\\Edit.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiongCanBaoTon\\Edit.cshtml",
@@ -998,7 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 56,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiongCanBaoTon\\Create.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiongCanBaoTon\\Create.cshtml",
@@ -1010,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 57,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiongCanBaoTon\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiongCanBaoTon\\Index.cshtml",
@@ -1022,19 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "QuanLyGiongVaThucAnChanNuoiContext.cs",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Data\\QuanLyGiongVaThucAnChanNuoiContext.cs",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Data\\QuanLyGiongVaThucAnChanNuoiContext.cs",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Data\\QuanLyGiongVaThucAnChanNuoiContext.cs",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Data\\QuanLyGiongVaThucAnChanNuoiContext.cs",
-              "ViewState": "AgIAANwAAAAAAAAAAAAqwPEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T04:10:57.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 59,
               "Title": "CoSoKhaoNghiemController.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\CoSoKhaoNghiemController.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\CoSoKhaoNghiemController.cs",
@@ -1046,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 60,
               "Title": "CoSoVatNuoi.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\CoSoVatNuoi.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\CoSoVatNuoi.cs",
@@ -1058,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 61,
               "Title": "ToChucCaNhanController.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\ToChucCaNhanController.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\ToChucCaNhanController.cs",
@@ -1070,7 +1187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 58,
               "Title": "GiongCanBaoTon.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\GiongCanBaoTon.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\GiongCanBaoTon.cs",
@@ -1082,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 62,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\CoSoKhaoNghiem\\Edit.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\CoSoKhaoNghiem\\Edit.cshtml",
@@ -1094,7 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 63,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\CoSoKhaoNghiem\\Create.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\CoSoKhaoNghiem\\Create.cshtml",
@@ -1106,7 +1223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 64,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\CoSoKhaoNghiem\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\CoSoKhaoNghiem\\Index.cshtml",
@@ -1118,7 +1235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 65,
               "Title": "ChucVu.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\ChucVu.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\ChucVu.cs",
@@ -1130,7 +1247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 66,
               "Title": "CapHc.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\CapHc.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\CapHc.cs",
@@ -1142,7 +1259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 67,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\ToChucCaNhan\\Delete.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\ToChucCaNhan\\Delete.cshtml",
@@ -1154,7 +1271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 69,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\ToChucCaNhan\\Edit.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\ToChucCaNhan\\Edit.cshtml",
@@ -1166,7 +1283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 68,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\ToChucCaNhan\\Create.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\ToChucCaNhan\\Create.cshtml",
@@ -1178,7 +1295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 70,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\ToChucCaNhan\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\ToChucCaNhan\\Index.cshtml",
@@ -1190,7 +1307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 71,
               "Title": "ToChucCaNhan.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\ToChucCaNhan.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\ToChucCaNhan.cs",
@@ -1202,7 +1319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 81,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\DonViHcHuyen\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\DonViHcHuyen\\Index.cshtml",
@@ -1214,7 +1331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 74,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\QuanLyQuyen\\Create.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\QuanLyQuyen\\Create.cshtml",
@@ -1226,7 +1343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 75,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\QuanLyQuyen\\Edit.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\QuanLyQuyen\\Edit.cshtml",
@@ -1238,7 +1355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 73,
               "Title": ".gitignore",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\.gitignore",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\.gitignore",
@@ -1250,7 +1367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 72,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\BaoCao\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\BaoCao\\Index.cshtml",
@@ -1262,7 +1379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 76,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\QuanLyQuyen\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\QuanLyQuyen\\Index.cshtml",
@@ -1274,31 +1391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "NewFile",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\NewFile",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\NewFile",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\NewFile",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\NewFile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-01-09T03:26:35.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "DonViHcHuyenController.cs",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcHuyenController.cs",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcHuyenController.cs",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcHuyenController.cs",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcHuyenController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHAAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T01:42:08.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 78,
               "Title": "DashboardViewModel.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\ViewModels\\DashboardViewModel.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\ViewModels\\DashboardViewModel.cs",
@@ -1310,7 +1403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 77,
               "Title": "BaoCaoController.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\BaoCaoController.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\BaoCaoController.cs",
@@ -1322,7 +1415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 83,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Program.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Program.cs",
@@ -1334,7 +1427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 80,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiongVatNuoi\\Details.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiongVatNuoi\\Details.cshtml",
@@ -1346,7 +1439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 79,
               "Title": "NguoiDung.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\NguoiDung.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\NguoiDung.cs",
@@ -1358,7 +1451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 84,
               "Title": "MenuViewComponents.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\ViewComponents\\MenuViewComponents.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\ViewComponents\\MenuViewComponents.cs",
@@ -1370,7 +1463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 82,
               "Title": "QuanLyQuyenController.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\QuanLyQuyenController.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\QuanLyQuyenController.cs",
@@ -1382,19 +1475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "PhanQuyenController.cs",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\PhanQuyenController.cs",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\PhanQuyenController.cs",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\PhanQuyenController.cs",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\PhanQuyenController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T01:44:58.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 85,
               "Title": "NhomController.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NhomController.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\NhomController.cs",
@@ -1406,7 +1487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 86,
               "Title": "MenuController.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\MenuController.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\MenuController.cs",
@@ -1418,7 +1499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 87,
               "Title": "GiongVatNuoiController.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\GiongVatNuoiController.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\GiongVatNuoiController.cs",
@@ -1430,19 +1511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
-              "Title": "DonViHcXaController.cs",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcXaController.cs",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcXaController.cs",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcXaController.cs",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Controllers\\DonViHcXaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T01:43:08.083Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 89,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Repositories\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Repositories\\UnitOfWork.cs",
@@ -1454,7 +1523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 90,
               "Title": "Repository.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Repositories\\Repository.cs",
@@ -1466,7 +1535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 88,
               "Title": "GiongVatNuoiRepository.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Repositories\\GiongVatNuoiRepository.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Repositories\\GiongVatNuoiRepository.cs",
@@ -1478,7 +1547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 91,
               "Title": "QuanLyGiongChanNuoi.Infrastructure.csproj",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\QuanLyGiongChanNuoi.Infrastructure.csproj",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\QuanLyGiongChanNuoi.Infrastructure.csproj",
@@ -1490,7 +1559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 92,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\LichSuTacDong\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\LichSuTacDong\\Index.cshtml",
@@ -1502,7 +1571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 93,
               "Title": "LichSuTacDong.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\LichSuTacDong.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\LichSuTacDong.cs",
@@ -1514,7 +1583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 94,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Menu\\Edit.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Menu\\Edit.cshtml",
@@ -1526,7 +1595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 95,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Menu\\Create.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Menu\\Create.cshtml",
@@ -1538,7 +1607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 98,
               "Title": "Default.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Shared\\Components\\Menu\\Default.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Shared\\Components\\Menu\\Default.cshtml",
@@ -1550,7 +1619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 97,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Menu\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Menu\\Index.cshtml",
@@ -1562,7 +1631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 96,
               "Title": "Menu.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\Menu.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\Menu.cs",
@@ -1574,7 +1643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 99,
               "Title": "Nhom.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\Nhom.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\Nhom.cs",
@@ -1586,7 +1655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 100,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\LichSuTruyCap\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\LichSuTruyCap\\Index.cshtml",
@@ -1598,19 +1667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
-              "Title": "LichSuTruyCap.cs",
-              "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\LichSuTruyCap.cs",
-              "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\LichSuTruyCap.cs",
-              "ToolTip": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\LichSuTruyCap.cs",
-              "RelativeToolTip": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\Models\\LichSuTruyCap.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAADwvxAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T04:19:32.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 101,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Nhom\\Edit.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\Nhom\\Edit.cshtml",
@@ -1622,7 +1679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 102,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\_ViewStart.cshtml",
@@ -1634,7 +1691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 103,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\_ViewImports.cshtml",
@@ -1646,7 +1703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 104,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Models\\ErrorViewModel.cs",
@@ -1658,7 +1715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 105,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\trananhduc\\HOCTAP\\C\u01A1 s\u1EDF ng\u00E0nh\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiongVatNuoi\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\Views\\GiongVatNuoi\\Index.cshtml",

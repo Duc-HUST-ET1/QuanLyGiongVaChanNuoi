@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "he1ten0jFKc=",
+  "dgSpecHash": "1OdPpfjfRes=",
   "success": true,
-  "projectFilePath": "E:\\trananhduc\\HOCTAP\\Cơ sở ngành\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\QuanLyGiongChanNuoi.Infrastructure.csproj",
+  "projectFilePath": "E:\\trananhduc\\HOCTAP\\COSONGANH\\KTPM\\KTPM_20233337_20233359_20233546_20233568\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\QuanLyGiongChanNuoi.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -16,3 +16,21 @@ E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygio
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\QuanLyGiongChanNuoi.Services.pdb
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\ref\QuanLyGiongChanNuoi.Services.dll
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\QuanLyGiongChanNuoi.Services.sourcelink.json
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\bin\Debug\net8.0\QuanLyGiongChanNuoi.Services.deps.json
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\bin\Debug\net8.0\QuanLyGiongChanNuoi.Services.dll
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\bin\Debug\net8.0\QuanLyGiongChanNuoi.Services.pdb
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\bin\Debug\net8.0\QuanLyGiongChanNuoi.Core.dll
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\bin\Debug\net8.0\QuanLyGiongChanNuoi.Infrastructure.dll
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\bin\Debug\net8.0\QuanLyGiongChanNuoi.Core.pdb
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\bin\Debug\net8.0\QuanLyGiongChanNuoi.Infrastructure.pdb
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\QuanLyGiongChanNuoi.Services.csproj.AssemblyReference.cache
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\QuanLyGiongChanNuoi.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\QuanLyGiongChanNuoi.Services.AssemblyInfoInputs.cache
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\QuanLyGiongChanNuoi.Services.AssemblyInfo.cs
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\QuanLyGiongChanNuoi.Services.csproj.CoreCompileInputs.cache
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\QuanLyGiongChanNuoi.Services.sourcelink.json
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\QuanLyGi.71C348AF.Up2Date
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\QuanLyGiongChanNuoi.Services.dll
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\refint\QuanLyGiongChanNuoi.Services.dll
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\QuanLyGiongChanNuoi.Services.pdb
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Services\obj\Debug\net8.0\ref\QuanLyGiongChanNuoi.Services.dll

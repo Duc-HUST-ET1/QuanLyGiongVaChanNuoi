@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuanLyGiongChanNuoi.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3230a22b271932827ea8053d85f145e8de3263d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd5cc033b0f9b5920ab26d3ab33ba1fec9e4f400")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuanLyGiongChanNuoi.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuanLyGiongChanNuoi.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

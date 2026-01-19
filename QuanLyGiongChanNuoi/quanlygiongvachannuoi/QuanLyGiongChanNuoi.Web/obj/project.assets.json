@@ -3784,11 +3784,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\trananhduc\\HOCTAP\\Cơ sở ngành\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\QuanLyGiongChanNuoi.Web.csproj",
+      "projectUniqueName": "E:\\trananhduc\\HOCTAP\\COSONGANH\\KTPM\\KTPM_20233337_20233359_20233546_20233568\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\QuanLyGiongChanNuoi.Web.csproj",
       "projectName": "QuanLyGiongChanNuoi.Web",
-      "projectPath": "E:\\trananhduc\\HOCTAP\\Cơ sở ngành\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\QuanLyGiongChanNuoi.Web.csproj",
+      "projectPath": "E:\\trananhduc\\HOCTAP\\COSONGANH\\KTPM\\KTPM_20233337_20233359_20233546_20233568\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\QuanLyGiongChanNuoi.Web.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\trananhduc\\HOCTAP\\Cơ sở ngành\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\obj\\",
+      "outputPath": "E:\\trananhduc\\HOCTAP\\COSONGANH\\KTPM\\KTPM_20233337_20233359_20233546_20233568\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3809,14 +3809,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\trananhduc\\HOCTAP\\Cơ sở ngành\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\QuanLyGiongChanNuoi.Core.csproj": {
-              "projectPath": "E:\\trananhduc\\HOCTAP\\Cơ sở ngành\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\QuanLyGiongChanNuoi.Core.csproj"
+            "E:\\trananhduc\\HOCTAP\\COSONGANH\\KTPM\\KTPM_20233337_20233359_20233546_20233568\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\QuanLyGiongChanNuoi.Core.csproj": {
+              "projectPath": "E:\\trananhduc\\HOCTAP\\COSONGANH\\KTPM\\KTPM_20233337_20233359_20233546_20233568\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Core\\QuanLyGiongChanNuoi.Core.csproj"
             },
-            "E:\\trananhduc\\HOCTAP\\Cơ sở ngành\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\QuanLyGiongChanNuoi.Infrastructure.csproj": {
-              "projectPath": "E:\\trananhduc\\HOCTAP\\Cơ sở ngành\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\QuanLyGiongChanNuoi.Infrastructure.csproj"
+            "E:\\trananhduc\\HOCTAP\\COSONGANH\\KTPM\\KTPM_20233337_20233359_20233546_20233568\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\QuanLyGiongChanNuoi.Infrastructure.csproj": {
+              "projectPath": "E:\\trananhduc\\HOCTAP\\COSONGANH\\KTPM\\KTPM_20233337_20233359_20233546_20233568\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Infrastructure\\QuanLyGiongChanNuoi.Infrastructure.csproj"
             },
-            "E:\\trananhduc\\HOCTAP\\Cơ sở ngành\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Services\\QuanLyGiongChanNuoi.Services.csproj": {
-              "projectPath": "E:\\trananhduc\\HOCTAP\\Cơ sở ngành\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Services\\QuanLyGiongChanNuoi.Services.csproj"
+            "E:\\trananhduc\\HOCTAP\\COSONGANH\\KTPM\\KTPM_20233337_20233359_20233546_20233568\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Services\\QuanLyGiongChanNuoi.Services.csproj": {
+              "projectPath": "E:\\trananhduc\\HOCTAP\\COSONGANH\\KTPM\\KTPM_20233337_20233359_20233546_20233568\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Services\\QuanLyGiongChanNuoi.Services.csproj"
             }
           }
         }

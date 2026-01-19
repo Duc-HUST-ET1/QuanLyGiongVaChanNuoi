@@ -21,3 +21,15 @@ E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygio
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\obj\Debug\net8.0\QuanLyGiongChanNuoi.Core.pdb
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\obj\Debug\net8.0\ref\QuanLyGiongChanNuoi.Core.dll
 E:\trananhduc\HOCTAP\Cơ sở ngành\KTPM\KTPM_TAD\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\obj\Debug\net8.0\QuanLyGiongChanNuoi.Core.sourcelink.json
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\bin\Debug\net8.0\QuanLyGiongChanNuoi.Core.deps.json
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\bin\Debug\net8.0\QuanLyGiongChanNuoi.Core.dll
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\bin\Debug\net8.0\QuanLyGiongChanNuoi.Core.pdb
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\obj\Debug\net8.0\QuanLyGiongChanNuoi.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\obj\Debug\net8.0\QuanLyGiongChanNuoi.Core.AssemblyInfoInputs.cache
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\obj\Debug\net8.0\QuanLyGiongChanNuoi.Core.AssemblyInfo.cs
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\obj\Debug\net8.0\QuanLyGiongChanNuoi.Core.csproj.CoreCompileInputs.cache
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\obj\Debug\net8.0\QuanLyGiongChanNuoi.Core.sourcelink.json
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\obj\Debug\net8.0\QuanLyGiongChanNuoi.Core.dll
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\obj\Debug\net8.0\refint\QuanLyGiongChanNuoi.Core.dll
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\obj\Debug\net8.0\QuanLyGiongChanNuoi.Core.pdb
+E:\trananhduc\HOCTAP\COSONGANH\KTPM\KTPM_20233337_20233359_20233546_20233568\QuanLyGiongChanNuoi\quanlygiongvachannuoi\QuanLyGiongChanNuoi.Core\obj\Debug\net8.0\ref\QuanLyGiongChanNuoi.Core.dll

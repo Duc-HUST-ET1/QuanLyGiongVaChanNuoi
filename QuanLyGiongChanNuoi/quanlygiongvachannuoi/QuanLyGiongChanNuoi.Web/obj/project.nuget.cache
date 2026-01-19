@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VZFFWhy/iEE=",
+  "dgSpecHash": "v59qJQVAim4=",
   "success": true,
-  "projectFilePath": "E:\\trananhduc\\HOCTAP\\Cơ sở ngành\\KTPM\\KTPM_TAD\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\QuanLyGiongChanNuoi.Web.csproj",
+  "projectFilePath": "E:\\trananhduc\\HOCTAP\\COSONGANH\\KTPM\\KTPM_20233337_20233359_20233546_20233568\\QuanLyGiongChanNuoi\\quanlygiongvachannuoi\\QuanLyGiongChanNuoi.Web\\QuanLyGiongChanNuoi.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

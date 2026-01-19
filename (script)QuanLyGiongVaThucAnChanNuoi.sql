@@ -858,7 +858,49 @@ GO
 ALTER TABLE [dbo].[ToChucNguonGen]  WITH CHECK ADD FOREIGN KEY([ToChucCaNhanID])
 REFERENCES [dbo].[ToChucCaNhan] ([ID])
 GO
+ALTER TABLE NguoiDung
+ALTER COLUMN MatKhau NVARCHAR(100);
+GO
+ALTER TABLE Nhom 
+ADD TrangThai BIT DEFAULT 1 WITH VALUES;
+GO
+-- Bước 1: Copy đoạn này vào SSMS
+UPDATE NguoiDung
+SET MatKhau = '81dc9bdb52d04dc20036dbd8313ed055' -- Đây là mã MD5 của: 1234
+WHERE TenDn = 'dophuongdiep' -- 
+UPDATE NguoiDung
+SET MatKhau = 'e10adc3949ba59abbe56e057f20f883e' -- Đây là mã MD5 của: 123456
+WHERE TenDn = 'hoangquoctrung' -- )
+UPDATE NguoiDung
+SET MatKhau = 'e10adc3949ba59abbe56e057f20f883e' -- Đây là mã MD5 của: 123456
+WHERE TenDn = 'thaiduong' -- 
+UPDATE NguoiDung
+SET MatKhau = 'e10adc3949ba59abbe56e057f20f883e' -- Đây là mã MD5 của: 123456
+WHERE TenDn = 'quan' -- 
+GO
+-- 1. KIEM TRA & CAP NHAT BANG MENU
+IF NOT EXISTS (SELECT * FROM sys.columns WHERE object_id = OBJECT_ID(N'[dbo].[Menu]') AND name = 'ControllerName')
+BEGIN
+    -- Add the columns first
+    ALTER TABLE [dbo].[Menu] ADD [ControllerName] VARCHAR(50) NULL;
+    ALTER TABLE [dbo].[Menu] ADD [ActionName] VARCHAR(50) NULL;
+    ALTER TABLE [dbo].[Menu] ADD [Icon] NVARCHAR(50) NULL;
+    ALTER TABLE [dbo].[Menu] ADD [ThuTu] INT DEFAULT 0 WITH VALUES;
+    ALTER TABLE [dbo].[Menu] ADD [HienThi] BIT DEFAULT 1 WITH VALUES;
+
+    -- Use EXEC to run updates dynamically. 
+    -- This defers compilation until runtime, AFTER columns are added.
+    -- IMPORTANT: Single quotes inside must be doubled (' -> '').
+    EXEC('
+        UPDATE [dbo].[Menu] SET [ControllerName] = ''Home'', [ActionName] = ''Index'', [Icon] = ''fa-solid fa-house'' WHERE [ID] = 1;
+        UPDATE [dbo].[Menu] SET [ControllerName] = ''NguoiDung'', [ActionName] = ''Index'', [Icon] = ''fa-solid fa-users'' WHERE [ID] = 2;
+        UPDATE [dbo].[Menu] SET [ControllerName] = ''ChucVu'', [ActionName] = ''Index'', [Icon] = ''fa-solid fa-user-tag'' WHERE [ID] = 3;
+    ');
+END
+GO
+ALTER TABLE lich_su_truy_cap
+ADD TrinhDuyet nvarchar(255) NULL;
 USE [master]
 GO
-ALTER DATABASE [QuanLyGiongVaThucAnChanNuoiA] SET  READ_WRITE 
+ALTER DATABASE [QuanLyGiongVaThucAnChanNuoi] SET  READ_WRITE 
 GO
